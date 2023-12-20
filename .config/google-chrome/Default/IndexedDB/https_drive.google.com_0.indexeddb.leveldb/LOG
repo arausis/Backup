@@ -1,0 +1,44 @@
+2023/12/19-14:19:22.077 1460 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/19-14:19:22.077 1460 Recovering log #175
+2023/12/19-14:19:22.079 1460 Reusing old log /home/ansel/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000175.log 
+2023/12/19-14:21:01.993 1461 Level-0 table #181: started
+2023/12/19-14:21:02.005 1461 Level-0 table #181: 398030 bytes OK
+2023/12/19-14:21:02.007 1461 Delete type=0 #175
+2023/12/19-14:21:02.008 1461 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x03\x02\x02\x01-\x00k\x00=\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x005\x00Z\x00w\x00c\x00N\x00w\x00P\x00r\x00-\x00w\x00E\x00.\x002\x000\x001\x009\x00.\x00O\x00/\x00c\x00k\x00=\x00/\x00a\x00m\x00=\x00;\x00s\x00y\x00z' @ 260851 : 1
+2023/12/19-14:21:02.008 1461 Compacting 1@0 + 0@1 files
+2023/12/19-14:21:02.010 1461 Generated table #182@0: 593 keys, 14760 bytes
+2023/12/19-14:21:02.014 1461 Generated table #183@0: 232 keys, 205519 bytes
+2023/12/19-14:21:02.014 1461 Compacted 1@0 + 0@1 files => 220279 bytes
+2023/12/19-14:21:02.015 1461 compacted to: files[ 0 2 12 0 0 0 0 ]
+2023/12/19-14:21:02.015 1461 Delete type=2 #181
+2023/12/19-14:21:02.015 1461 Manual compaction at level-0 from '\x00\x03\x02\x02\x01-\x00k\x00=\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x005\x00Z\x00w\x00c\x00N\x00w\x00P\x00r\x00-\x00w\x00E\x00.\x002\x000\x001\x009\x00.\x00O\x00/\x00c\x00k\x00=\x00/\x00a\x00m\x00=\x00;\x00s\x00y\x00z' @ 260851 : 1 .. (end); will stop at (end)
+2023/12/19-14:21:02.016 1461 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x02\x02\x01-\x00k\x00=\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x005\x00Z\x00w\x00c\x00N\x00w\x00P\x00r\x00-\x00w\x00E\x00.\x002\x000\x001\x009\x00.\x00O\x00/\x00c\x00k\x00=\x00/\x00a\x00m\x00=\x00;\x00s\x00y\x00z' @ 260851 : 1
+2023/12/19-14:21:02.016 1461 Compacting 2@1 + 12@2 files
+2023/12/19-14:21:02.035 1461 Generated table #184@1: 2358 keys, 2123018 bytes
+2023/12/19-14:21:02.056 1461 Generated table #185@1: 2114 keys, 2123295 bytes
+2023/12/19-14:21:02.076 1461 Generated table #186@1: 2516 keys, 2124048 bytes
+2023/12/19-14:21:02.097 1461 Generated table #187@1: 2284 keys, 2125655 bytes
+2023/12/19-14:21:02.118 1461 Generated table #188@1: 1908 keys, 2120965 bytes
+2023/12/19-14:21:02.138 1461 Generated table #189@1: 2551 keys, 2132234 bytes
+2023/12/19-14:21:02.158 1461 Generated table #190@1: 2328 keys, 2123919 bytes
+2023/12/19-14:21:02.178 1461 Generated table #191@1: 1938 keys, 2124553 bytes
+2023/12/19-14:21:02.198 1461 Generated table #192@1: 2411 keys, 2121073 bytes
+2023/12/19-14:21:02.219 1461 Generated table #193@1: 2428 keys, 2129980 bytes
+2023/12/19-14:21:02.243 1461 Generated table #194@1: 24647 keys, 1720507 bytes
+2023/12/19-14:21:02.243 1461 Compacted 2@1 + 12@2 files => 22969247 bytes
+2023/12/19-14:21:02.246 1461 compacted to: files[ 0 0 11 0 0 0 0 ]
+2023/12/19-14:21:02.246 1461 Delete type=2 #165
+2023/12/19-14:21:02.247 1461 Delete type=2 #182
+2023/12/19-14:21:02.247 1461 Delete type=2 #172
+2023/12/19-14:21:02.247 1461 Delete type=2 #173
+2023/12/19-14:21:02.247 1461 Delete type=2 #168
+2023/12/19-14:21:02.247 1461 Delete type=2 #183
+2023/12/19-14:21:02.247 1461 Delete type=2 #177
+2023/12/19-14:21:02.247 1461 Delete type=2 #169
+2023/12/19-14:21:02.247 1461 Delete type=2 #178
+2023/12/19-14:21:02.247 1461 Delete type=2 #166
+2023/12/19-14:21:02.247 1461 Delete type=2 #164
+2023/12/19-14:21:02.247 1461 Delete type=2 #170
+2023/12/19-14:21:02.247 1461 Delete type=2 #163
+2023/12/19-14:21:02.247 1461 Delete type=2 #171
+2023/12/19-14:21:02.250 1461 Manual compaction at level-1 from '\x00\x03\x02\x02\x01-\x00k\x00=\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x005\x00Z\x00w\x00c\x00N\x00w\x00P\x00r\x00-\x00w\x00E\x00.\x002\x000\x001\x009\x00.\x00O\x00/\x00c\x00k\x00=\x00/\x00a\x00m\x00=\x00;\x00s\x00y\x00z' @ 260851 : 1 .. (end); will stop at (end)

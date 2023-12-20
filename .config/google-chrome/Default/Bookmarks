@@ -1,0 +1,279 @@
+{
+   "checksum": "0f6ea7a6dcc5584c13456dc100d93417",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13312503337543900",
+            "date_last_used": "13347143152514574",
+            "guid": "25eb0977-334b-4cd6-a0da-ba2e8e692e35",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "My Drive - Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/my-drive?hl=en"
+         }, {
+            "date_added": "13312536792569789",
+            "date_last_used": "0",
+            "guid": "75c4697a-6202-4ff9-aa4d-754e84fc10a4",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Symbala",
+            "type": "url",
+            "url": "https://www.symbalaworld.com/blog/"
+         }, {
+            "date_added": "13313964463618098",
+            "date_last_used": "13346040147084430",
+            "guid": "c8fff866-8702-4d26-abf8-22151c96db5d",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google Scholar",
+            "type": "url",
+            "url": "https://scholar.google.com/"
+         }, {
+            "date_added": "13315713374469786",
+            "date_last_used": "13347434407540239",
+            "guid": "56f2ba67-aa71-4474-830f-87b788509d43",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google Maps",
+            "type": "url",
+            "url": "https://www.google.com/maps"
+         }, {
+            "date_added": "13317959805233493",
+            "date_last_used": "13347499665893749",
+            "guid": "266dc349-dfcd-4930-93b5-82c55f5659fc",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/"
+         }, {
+            "date_added": "13320225818426672",
+            "date_last_used": "0",
+            "guid": "d47970a5-682b-42c6-b7cc-fb9e5cb3f088",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Polyratings.com",
+            "type": "url",
+            "url": "https://www.polyratings.com/list.html"
+         }, {
+            "date_added": "13325974012965252",
+            "date_last_used": "13347498575333358",
+            "guid": "e9a81648-abfc-441c-9d4a-b28018acea05",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Home | My Cal Poly Portal",
+            "type": "url",
+            "url": "https://myportal.calpoly.edu/f/u15l1s6/normal/render.uP"
+         }, {
+            "date_added": "13325974023810070",
+            "date_last_used": "13347102117147678",
+            "guid": "e1bf2e9a-d455-4f84-9508-04d07cc6022e",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Dashboard",
+            "type": "url",
+            "url": "https://canvas.calpoly.edu/"
+         }, {
+            "date_added": "13326059181410677",
+            "date_last_used": "13346493105571968",
+            "guid": "bb5f1db6-108a-43db-8bc2-b00f7e3567b9",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chat.openai.com/"
+         }, {
+            "date_added": "13327115516697932",
+            "date_last_used": "0",
+            "guid": "6db5769d-b8d0-4a06-a016-18a9f4c5017d",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Permaculture",
+            "type": "url",
+            "url": "https://cityrepair.org/"
+         }, {
+            "date_added": "13330678418448364",
+            "date_last_used": "13345439363896170",
+            "guid": "fc391194-6507-46fd-bdea-3cdc046f853f",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "*Freedom Force_PCman",
+            "type": "url",
+            "url": "https://cdn.akamai.steamstatic.com/steam/apps/8880/manuals/Freedom_Force_-_Manual.pdf?t=1569012854"
+         }, {
+            "date_added": "13339137910028652",
+            "date_last_used": "13345943501270959",
+            "guid": "2fb1ad2d-ed69-4eee-a333-64b40233b8ef",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Interval Ear Training",
+            "type": "url",
+            "url": "https://www.musictheory.net/exercises/ear-interval"
+         }, {
+            "date_added": "13339137926970962",
+            "date_last_used": "0",
+            "guid": "da693178-9c1c-4e9a-b6f9-5775e58b153f",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Fretboard Note Identification",
+            "type": "url",
+            "url": "https://www.musictheory.net/exercises/fretboard"
+         } ],
+         "date_added": "13344728985479346",
+         "date_last_used": "0",
+         "date_modified": "13339137926970962",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13339803971434921",
+            "date_last_used": "13340409417133206",
+            "guid": "958cd7e6-3d79-4136-8ece-23fd40a2480d",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Poly PDF share - Google Drive",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1-1D9dAKdrDjtW_DjOjSYeRooQAY3Qa7KS8PUmd4-12k/htmlview?usp=drivesdk&utm_name=iossmf"
+         }, {
+            "date_added": "13339804028849255",
+            "date_last_used": "0",
+            "guid": "cf6aed87-d4bb-4488-8b07-d995dc920325",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Stats",
+            "type": "url",
+            "url": "https://drive.google.com/file/d/1VuCbeJ-1j0KdwYUppRaoiy2Kw1nNbKzM/view"
+         }, {
+            "date_added": "13341702348426551",
+            "date_last_used": "0",
+            "guid": "7c20c9ba-c81d-42cf-91f9-3f757338bdc2",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ISCAM IV files",
+            "type": "url",
+            "url": "https://www.rossmanchance.com/iscam3/files.html"
+         }, {
+            "date_added": "13341797878322470",
+            "date_last_used": "0",
+            "guid": "13be2445-a6d0-47e0-9f37-9ce094ed41fb",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Bard",
+            "type": "url",
+            "url": "https://bard.google.com/chat"
+         }, {
+            "date_added": "13342082770325372",
+            "date_last_used": "0",
+            "guid": "2175132b-f1ab-4734-9a17-7ac647f1dddc",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Detexify",
+            "type": "url",
+            "url": "https://detexify.kirelabs.org/classify.html"
+         }, {
+            "date_added": "13342223018699787",
+            "date_last_used": "0",
+            "guid": "ff72f778-8c03-4ce3-a09d-86990dbc4c85",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Luke's Webpage",
+            "type": "url",
+            "url": "https://lukesmith.xyz/"
+         }, {
+            "date_added": "13342771279224993",
+            "date_last_used": "0",
+            "guid": "1163efd4-446f-4e4f-8af3-a3fea332d1c3",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "micrographs - bio_logic",
+            "type": "url",
+            "url": "https://cmubiologic.weebly.com/micrographs.html"
+         }, {
+            "date_added": "13346214585503158",
+            "date_last_used": "0",
+            "guid": "9a3748d2-2eab-4ee3-be74-4c88e17a3b36",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub",
+            "type": "url",
+            "url": "https://github.com/"
+         }, {
+            "date_added": "13346943388514221",
+            "date_last_used": "0",
+            "guid": "78d122f7-4f93-4044-a5ca-3ad3beb40c0c",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "monstershirts.com",
+            "type": "url",
+            "url": "https://monstershirts.com/"
+         } ],
+         "date_added": "13344728985479348",
+         "date_last_used": "0",
+         "date_modified": "13346943388514221",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13344728985479350",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cq8BCo4BCIiBAhKHASAAkgF9CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCfZzIqLkDAYAEfZzIqLkDAYAKfVeI6LkDAYACkUKFmFubm90YXRpb25fY2hyb21lX3N5bmMSBTUxIWJkGhIJgE8GnOQMBgARgE8GnOQMBgAptHAiouQMBgAwgJ+Z4MmcgwO6AQIIARIAKhhzblhiZnZJR3BzSkpZM2lXckw1Z3V3PT1IAxLuAQgaEukBChxKN0Rid3JNM242cmx6cVVZTGNtUzZsaEpGaUk9EmZaOkFEcXRBWnlwR1lDRWpCcnZVMGdPSE4vVHFvazdiSHgreHRJK2F6cXdXMVlYSFpzTit0M0xJa0ZQMnpEWWZHUWdFSmk0Sjh0SjVkZTB4R2MvRUVaU3lEcHlmdXAvWCtRZWZRPT0YACACKAIwl6HhjvnLggM4u/71jqkxQPSL/Pi9MUocWjNaTk9xZEdFUURiVlNad3lEQjJrRk01L0EwPVohIh////1VRTJaem9YZGNPL1cyOG1NVzQ2dTRhVTh1ZTA9ZfZdC+kS7gEIGRLpAQoca0tBVGFKOVI0TlVBOWhpOXhidTB0cVhRNk5vPRJmWjpBRHF0QVp5cEdZQ0VqQnJ2VTBnT0hOL1Rxb2s3dEEvR3V2eVVUQXdmd1hwL3Z4ZkYyOE1YWGhJYnBqdlpmWitNMjdHUkpBcGR5YjRrVlRIMHlUOVUySU9qL0Q1dmJlT0F0QT09GAAgAigCMJeh4Y75y4IDOI369I6pMUD0i/z4vTFKHC9kNm9EclhuQmpmZVFKK2N5K016Q2U4UzdLMD1aISIf///2eGxDWjNJckNmRWV5eTgvY3RZVmhYekh2dGljPWX2XQvpEusBCAUS5gEKHEFtNjQzVTRya3hiakc5RnJ0dEdTaFBhbWNnMD0SZlo6QURxdEFaeXBHWUNFakJydlUwZ09ITi9UcW9rN0RjNHlyZTR1K0JUZnV5cjBJWDR3N0tWZ243WGdTR0RXbHFybDVyUVIyWG1SWVh3MW02MmxXQ3JUTk9lZWVianorZ2FYbFE9PRgAIAAoADCZ7ZPLpLiCAzjrjsLMqzFA647CzKsxShxzTkZ0ZkFBZ2dYeTRNK0pFUDloclZJQ09nQTQ9Wh4iHDBEYkp2VmtmN1VoVXgxQjlVMTQwR0x3VlRJcz1l+0TXXBLuAQgWEukBChxLQ2dpN3gvWmN5amhGUjRaOHViTmtVY1JtZWc9EmZaOkFEcXRBWnlwR1lDRWpCcnZVMGdPSE4vVHFvazdOWUpISEV6ZkFzekJmL0FZZDJRMnBLc2Via3NaVHUwRlhsb2J5S0NnYmx5dERMWTR5MzR6M0hTdkRQNG42TEpzeVNacm53PT0YACADKAMwsLuwps/gggM449q+svgwQLbs18vAMUocNW45UUgwZjdIK2p3b1AzVVFpLzcrMnM5Lzk0PVohIh///7JERjVQd2p3citaU2NPdHBYdXRjVnNmMU1Ud0E9ZWkbIvMS7QEIFBLoAQocU3RScUhxWnNJcm13SFVBNzM3WEdsZkFtMlFJPRJmWjpBRHF0QVp5cEdZQ0VqQnJ2VTBnT0hOL1Rxb2s3VjdJN0xTL3NwRXlma2VpVWRMVVM4MG5hb2p5Zm1GNkFFY2xuMG8raUdua0xndjNRa2VUdVJ1UVpHZEJOV2V3RzFMMnZidz09GAAgCCgIMPeZg92Q94IDOKW48In4MECDhMG8wzFKHHR2UllIQmt2bGl1RnFKUkFkVGR0aDhZUS9pZz1aICIe//plME5LdU1qQ2s3OENkK2VsUDJlTFVsb216ODA9ZXRZ93cS7QEIFRLoAQocR3FiMlAwR0VmWHBXT1pETGZXb0grRHVqV2trPRJmWjpBRHF0QVp5cEdZQ0VqQnJ2VTBnT0hOL1Rxb2s3YVFDNDg0WVVpZ01ZNk4yUnJpcVIzVDgxd3FxblZzemYzd29jUHpPcDh6ZWZvOW15OHFqMWZnQ1lXLzNId3hmUTljNVhNQT09GAAgHCgcMPTX6srAmIMDOIKN8Yn4MECUo6ffxzFKHG5CY0xKK292TmcxQW5Sb051THhTT05XTWZOMD1aICIe//1GMTRZQmZkQm1QWWFTbGx6VkpEd0lFazY4Q0U9ZXRZ93cS7AEICRLnAQocMjhYc29wOFlxVnF6aUI0bysweDhIK2VlTFhzPRJmWjpBRHF0QVp5cEdZQ0VqQnJ2VTBnT0hOL1Rxb2s3cStudE5SWVFOZGpOTmFmTlkxZFV1K2x1UEx1SWlucnNPektaaWFUa2NEbjd6WUxzRisya2RyVEdyaXBmaENqVTlqTFNuQT09GAAgBCgEMKGA0IDS/IIDOLLEpIOzMUDOp+SWxDFKHGVDbm5wMTNTdjlVSmI1UGM3R0hnU0hES3VPVT1aHyId3kpvNVlEOS9yNzJhK2h5TW0yS2VER0NHOENybz1lC2QmDRLDAQgCEr4BChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWngxSTVHY1JIQURRdmhiNnRHMHJzeStyUDRENCtrRkhSUGZaSmp6ZDNhWkFKRXJONDBMYnJCdGlTYTNOZUdReWJHdU5LMmFENGFYeUNHNzBqczRoOUlvOXdhUkFBPT0YACAAKAAwk/j+iPnLggM4AEAAShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABLsAQgLEucBChwzSU9EcGIwZUlYNGJPd2xxQWxNMHZBQnRqVEE9EmZaOkFEcXRBWnlwR1lDRWpCcnZVMGdPSE4vVHFvazdTVzgxL3E5K0ZxR0h1LytGOElCL043Y09YVWlsM09IckRkVG5vczI5TXZlWjNVWjZVN3dzbHc2SStpdXNnaDI5UlF4RktBPT0YACAAKAAw39Sg//b+gQM4lfuQi7QxQJX7kIu0MUoccmNVdjA0ekI4OTVYa3hJZkszZEQ1WXZ0SVE4PVofIh33Y2lnYUdSZkVEOFlSRENPeVBmbHRaL3MxQXQ0PWWILlMlEusBCA8S5gEKHGRHYWZwbE9hQ2tUMnZlT2lJbHU5ek01OFU0WT0SZlo6QURxdEFaeXBHWUNFakJydlUwZ09ITi9UcW9rNy9uOFVaREdEaHg1RWVxWk11UDJTcnRhdEJ4YVE0R3N1VnpmNDB4RWlLRXJndEFGdXNWU1B4NEplSk1yQ2VIU0hBc0RLNHc9PRgAIAAoADCR9O/Tg6P7Ajj6y8GCxjBA+svBgsYwShwvZ29QdGJhc3lDS2FNdWxjM01ib29INFBYdmc9Wh4iHGhWZGlIY2NUZ3ZZNkM3d2IxelMySTZ6WjlZWT1lAAAAABLsAQgQEucBChxUYnlIaUl2c3BsUUdWaXgvSmN0K2ZSUW1Yc2s9EmZaOkFEcXRBWnlwR1lDRWpCcnZVMGdPSE4vVHFvazdqUVJyUXJvdWhHQ1I0UnJ3NjBWMHBFaHdKd3o3aElKOGNaQXZQcTNWVmtvdzlvSm90YWI1ek1QNWltWXJGMHNKSHJBc3lRPT0YACACKAIwl6HhjvnLggM4g9yjq8swQO+L/Pi9MUocaXdOaElkRkJ6UUkvejdmREZkN1JtaEEvYldJPVofIh20OGZjUCtRQVQxa0E0YXVFZmFWMUlsUVo1TWs4PWV7dwh9EusBCAYS5gEKHGg0RFJvWFllLytqNXBnSDBZV3pVNzBLK0owTT0SZlo6QURxdEFaeXBHWUNFakJydlUwZ09ITi9UcW9rN08zbTN4cUkwb3FHcEczcVpMdEozbXNKME1vMEtBWkl5a2hmc3FjQ3M5bUg1MXFDOER1SmZ1dVR3VjZZOHFlM3QrVFVCbUE9PRgAIAAoADCeg6ODzryBAzixz8XMqzFAsc/FzKsxShx2UitnUHRMekllYytwK0ZhU00vTWtTb0dHTzA9Wh4iHExMRDcwQmliSWUwQlUyVHRPWU5KUkZvZlp4Yz1lugosURLrAQgOEuYBChxKWlpIcWlmbk9vY0JzcUZhZFJjZ3VJRTRUb0E9EmZaOkFEcXRBWnlwR1lDRWpCcnZVMGdPSE4vVHFvazdldXZpSGY0V2ZtV0F4YXJVOWZVOTNqUk9OcWdWS2lvK1hRUUdEZTdNWGh3aU45azlVcmlwdVozL0xtV3BtVmNldHBNWUZnPT0YACACKAIwl6HhjvnLggM4yNTH8sUwQO+L/Pi9MUocUWNWajllbzhVZXlwWXJ1bExuWkVzK3FtN3FjPVoeIhxFWVZxVWMzTm9saFFmZE9qUkxuSm5oaXg3WjQ9ZfqR3tsS7gEIFxLpAQoccDlsdytubS80ZkJDdVRndytsUlVyY25xbXVVPRJmWjpBRHF0QVp5cEdZQ0VqQnJ2VTBnT0hOL1Rxb2s3ZHZyQWdOS1ZoY2prSkZDQjEyZ05weURuU2JWbmRubW1ZeW1zU3FYMDY1SUlXZC81czZuTDFMbVdoekQxMWVMMUcrVjU2UT09GAAgAigCMJeh4Y75y4IDOJqmmKr8MEDzi/z4vTFKHGVOY3FUSmpTRS9tVHVtZUhvV3FQcGR6OEUwST1aISIf///ZTm1uWFdWVEtKQlllQnNvc3FYZDFiTnBuM2pZPWWfSZHMEuwBCAwS5wEKHExyclQzUDZDZWhCMVJkQ3llNkZqemludGdUVT0SZlo6QURxdEFaeXBHWUNFakJydlUwZ09ITi9UcW9rN0ZYUkVCYmlvSk5hQlB6Y1RwKys1M3BuSjRpNis5NW5BK051aml1TlRZdmxIc0ZaSjhZTTBZQ0hMaXNLcTFIdWt3RHIvdWc9PRgAIAAoADCi7Km4gYOCAzjMhYHOtDFAzIWBzrQxShxWZ1loSUJ3ZDZ4MGcxWXlhUEFsZVZZWTJIL009Wh8iHftMS2VoRURmZitsdUxqKzUyK25aUVBZc0hlTms9ZSSckiMSqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp4TjJ4S0lDaG1wMEtuTkt4N2w1WjFJcS8xSjJvVkdrWWZoUjJhd2h2M3plLzQ1Z3JLTEwrbURRSmVkL2xtd2JQelVPenowGAAgACgAMJP4/oj5y4IDOABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAS7gEIGBLpAQocaTJvOFdFVS9VOUZPMU0zRnNPb21aS0NSV2U0PRJmWjpBRHF0QVp5cEdZQ0VqQnJ2VTBnT0hOL1Rxb2s3SXV6bDRiM2NNOFg2ZkFvdXVXc0gzS0pFRHZTc2VPYy94ZlQveGt5cnBiSmlST3lYRjVNMEx6L1NOSjdoRUNSSTBac3Radz09GAAgAigCMJeh4Y75y4IDOJDIjs2JMUDzi/z4vTFKHG5Fa2w3WFBlVXpITHpyNDJMWG1HWUN6VW1Obz1aISIf///sb1FZUzNoNDBPRHdkMVRlQSt2SGYvQm9IT3NVPWUrjlfBEuwBCBIS5wEKHDRmbmU3NFZOVXVGeEhQYW5VMkVRMjZxVjcvdz0SZlo6QURxdEFaeXBHWUNFakJydlUwZ09ITi9UcW9rN01UakN1Qm9IYkVZTFFxVkM2VGlpcGtmYjh0cndWWktEOEtDcmVUTDgvNUNOU0lGRHo4TFZpRGN1Tkx3OFVhamNNQ0U0K1E9PRgAIAUoBTDZmI3hwIiDAziygrSc2jBA28GX2cUxShw0Z0trWVdiWWdFZEFKUllQUHJJbVFFYU5DMVU9Wh8iHf1mYy96K1pTOG1zU0FpSEdCbzV2MkVTRlRVU009ZZs9hbYS7AEIERLnAQocRzJEK21objFsL1RZWkNSeCtCQ1d2RUtKWmpzPRJmWjpBRHF0QVp5cEdZQ0VqQnJ2VTBnT0hOL1Rxb2s3ZVY3WWZGUHVBZzlEZVNDbTZrcWc4ZzBHWHBPUjF0My9GNVdFY1BzUkVNMVB3b1FtYkZHY1FDWkJWNmpqRVRpQ0poRjkvUT09GAAgAigCMJeh4Y75y4IDOIXinO3RMEDwi/z4vTFKHFBkaGNRUHRMSHFDU1dVRVNEY0xnNjE1NTR4dz1aHyId9m9FTkgvVkxheDU4WmkvLzZuSEdwNWp2dFhBOD1lPWyFERLsAQgNEucBChx0WERmNEdGeFdJRkpGYnpPdGJHTjFJVk1ySVk9EmZaOkFEcXRBWnlwR1lDRWpCcnZVMGdPSE4vVHFvazd6Q3Y5K0x4UElDRkF3OWczYzNyN2FoWXVJL0NxbUgwbE5EaCt3aW14NWprWU5uSlZCOTFlb2xDdVM2M0g5cjhFZGJqYVlnPT0YACAAKAAw1MfO7/uSggM4+Zq407YxQPmauNO2MUocZ0hobkxNZllYQWw0SFZ2ekwwUGE4QTVneWdzPVofIh39L3J3aW9HNHdLRXBnZHkyTEVwSWJudFRiTG9FPWUK6UCiEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFad3crNmNwVk5iVTZQdzQxTlRSVTE3eGg0VmxFWXVwdGhRWkFNSG5IVlNqOEtNaC9vOHkveVo3OThjNStWR3JZY0k4R1FDMFA4cEZTczQ5VTZIT0UvQ1R3Z2NWVUE9PRgAIAAoADCT+P6I+cuCAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEu0BCBMS6AEKHGJ5Z3RLbTNlYk54bU5DaitBUVQ4SmxBalBnZz0SZlo6QURxdEFaeXBHWUNFakJydlUwZ09ITi9UcW9rN1AvV00yK1ZVTHcwZFBKNmhvZlBrL1p4TWJva24xSzhyK3RPWko4RW9OZU9WOGZKcTBpaUJ2V0I1aVFQcElSNjJ5SkZhR0E9PRgAIAAoADDPpMu+54L9Aji7vvbU4jBAu7721OIwShwwVFNwMU9IdzQzblllWGZ2MElwZW5uMVhMUEk9WiAiHv/VcGFXempQYnF0Mm0xUGFLTkN4blhQeG9qSXpzPWUAAAAAEuwBCAgS5wEKHFJkbVFjY0x2WWd2UEVJK3RLTG1pSjc2QWZMMD0SZlo6QURxdEFaeXBHWUNFakJydlUwZ09ITi9UcW9rN3Z3NXJyMDlPTUlsbUt5WmluY3NLY1ZhVkxWRjkra0R0RnZIUE52anhrQjdxRDlzMnhsU1N2dk0yNVJsUEtPSS9aUDJqVlE9PRgAIAAoADD49YHm7fOBAziK7d3VsjFAiu3d1bIxShxUbWZNMHp0bTdCM21mU0gwVXgyQVZ0anJZWTg9Wh8iHbwvU1VaZGhRNXhUcXZsb2RIN0NmVlVNKzBKc0U9ZQAAAAAS7AEIHhLnAQocdktwWVNHcUMyS201M2lXeXVXVzhvVmFXWU1NPRJmWjpBRHF0QVp5cEdZQ0VqQnJ2VTBnT0hOL1Rxb2s3bWVkbVltTzVmNW0vMmFWN2FKUlp6dnVFTy9ZOXJHYkZqRTdWOEFSaVdvYWptU3BEbXJEMlVUWThNaFcrbGhIby9SdUJpZz09GAAgAigCMNGu67jHi4MDOJ/5qr3DMUC815iLxjFKHEZNSXZ6VlErT3VlVE8vU1Bpait3UWpFejFiaz1aHyId/3NSNEQ5Q1BUOGoyVTIwVlNFRTNLQnBZKzVaUT1lwKUouhLtAQggEugBChxhTnc0ei9pbnNJQUp0STVSMXpaRExMWlpidUk9EmZaOkFEcXRBWnlwR1lDRWpCcnZVMGdPSE4vVHFvazdOeTZPZHRMcEpUaFF2MGM4NmNMcS9UYjJ1MlF1WWxpN0oyVzVrVjk4ZUp6Y0l0Qno4c3FnQURFbks4aUdGR2Z3SGRFdDd3PT0YACAAKAAwgu7488aLgwM44sbtmMYxQOLG7ZjGMUocOHlzbkgrQmpUL3FGZlplVG5IRVd4VHdCeGZFPVogIh7/uTNLQ2lMVjFFcW5wdGpzWi9sdkJNYklyVGxjND1lAAAAADABOAA=",
+   "version": 1
+}

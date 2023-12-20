@@ -1,0 +1,18 @@
+2023/12/01-15:32:38.372 b95 Creating DB /home/ansel/.config/google-chrome/Default/WebStorage/23/IndexedDB/indexeddb.leveldb since it was missing.
+2023/12/01-15:32:38.375 b95 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/WebStorage/23/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/12/01-15:32:38.719 ba1 Level-0 table #5: started
+2023/12/01-15:32:38.721 ba1 Level-0 table #5: 611 bytes OK
+2023/12/01-15:32:38.722 ba1 Delete type=0 #3
+2023/12/01-15:32:38.723 b95 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/12/01-15:32:40.728 b96 Level-0 table #7: started
+2023/12/01-15:32:40.730 b96 Level-0 table #7: 256 bytes OK
+2023/12/01-15:32:40.732 b96 Delete type=0 #4
+2023/12/01-15:32:40.732 b96 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/12/01-15:32:40.733 b96 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0
+2023/12/01-15:32:40.733 b96 Compacting 1@1 + 1@2 files
+2023/12/01-15:32:40.734 b96 Generated table #8@1: 6 keys, 253 bytes
+2023/12/01-15:32:40.734 b96 Compacted 1@1 + 1@2 files => 253 bytes
+2023/12/01-15:32:40.736 b96 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/12/01-15:32:40.736 b96 Delete type=2 #7
+2023/12/01-15:32:40.736 b96 Delete type=2 #5
+2023/12/01-15:32:40.737 b96 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0 .. (end); will stop at (end)

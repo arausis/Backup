@@ -1,0 +1,6 @@
+vim.cmd[[let maplocalleader = " " ]]
+vim.cmd[[syntax enable]]
+vim.cmd[[let g:tex_flavor='latex']]
+vim.cmd[[let g:vimtex_view_method='zathura']]
+vim.cmd[[set conceallevel=1]]
+vim.cmd[[let g:tex_conceal='abdmg']]

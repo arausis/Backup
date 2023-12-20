@@ -1,0 +1,4 @@
+#! /bin/sh
+
+shutter -s 
+rm ~/Pictures/Selection*

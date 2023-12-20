@@ -1,0 +1,7 @@
+#! /bin/sh
+
+gnome-terminal -- bash -c "
+ nvim /home/ansel/scripts/sitecomp/sites.txt ; 
+/usr/bin/python3 /home/ansel/scripts/sitecomp/sitecompiler.py 
+
+"

@@ -1,0 +1,27 @@
+2023/12/14-22:42:28.215 a5d Reusing MANIFEST /home/ansel/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/12/14-22:42:28.228 a5d Recovering log #183
+2023/12/14-22:42:28.230 a5d Reusing old log /home/ansel/.config/google-chrome/Default/Sync Data/LevelDB/000183.log 
+2023/12/14-23:06:57.336 a5d Level-0 table #187: started
+2023/12/14-23:06:57.349 a5d Level-0 table #187: 100268 bytes OK
+2023/12/14-23:06:57.353 a5d Delete type=0 #183
+2023/12/15-23:34:21.652 a6b Level-0 table #189: started
+2023/12/15-23:34:21.660 a6b Level-0 table #189: 89178 bytes OK
+2023/12/15-23:34:21.663 a6b Delete type=0 #186
+2023/12/15-23:34:21.663 a69 Compacting 4@0 + 1@1 files
+2023/12/15-23:34:21.669 a69 Generated table #190@0: 217 keys, 36808 bytes
+2023/12/15-23:34:21.669 a69 Compacted 4@0 + 1@1 files => 36808 bytes
+2023/12/15-23:34:21.670 a69 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/15-23:34:21.670 a69 Delete type=2 #182
+2023/12/15-23:34:21.670 a69 Delete type=2 #189
+2023/12/15-23:34:21.670 a69 Delete type=2 #187
+2023/12/15-23:34:21.670 a69 Delete type=2 #184
+2023/12/15-23:34:21.670 a69 Delete type=2 #180
+2023/12/16-00:17:38.329 a69 Level-0 table #192: started
+2023/12/16-00:17:38.334 a69 Level-0 table #192: 101454 bytes OK
+2023/12/16-00:17:38.336 a69 Delete type=0 #188
+2023/12/17-02:40:52.212 a5d Level-0 table #194: started
+2023/12/17-02:40:52.228 a5d Level-0 table #194: 90598 bytes OK
+2023/12/17-02:40:52.230 a5d Delete type=0 #191
+2023/12/17-19:04:58.104 a5d Level-0 table #196: started
+2023/12/17-19:04:58.111 a5d Level-0 table #196: 94135 bytes OK
+2023/12/17-19:04:58.114 a5d Delete type=0 #193

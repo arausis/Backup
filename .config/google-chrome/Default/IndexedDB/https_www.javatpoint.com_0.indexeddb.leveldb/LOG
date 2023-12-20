@@ -1,0 +1,6 @@
+2023/12/10-16:22:14.655 b51 Creating DB /home/ansel/.config/google-chrome/Default/IndexedDB/https_www.javatpoint.com_0.indexeddb.leveldb since it was missing.
+2023/12/10-16:22:14.659 b51 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/IndexedDB/https_www.javatpoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/10-17:34:36.344 b52 Level-0 table #5: started
+2023/12/10-17:34:36.347 b52 Level-0 table #5: 1143 bytes OK
+2023/12/10-17:34:36.349 b52 Delete type=0 #3
+2023/12/10-17:34:36.350 b52 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

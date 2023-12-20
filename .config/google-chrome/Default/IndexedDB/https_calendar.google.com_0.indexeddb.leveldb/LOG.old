@@ -1,0 +1,15 @@
+2023/12/13-19:36:44.465 1750 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/13-19:36:44.466 1750 Recovering log #35
+2023/12/13-19:36:44.466 1750 Reusing old log /home/ansel/.config/google-chrome/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/000035.log 
+2023/12/13-19:36:47.296 1750 Level-0 table #40: started
+2023/12/13-19:36:47.298 1750 Level-0 table #40: 1128 bytes OK
+2023/12/13-19:36:47.300 1750 Delete type=0 #35
+2023/12/13-19:36:47.300 1750 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/12/13-19:36:47.300 1750 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00o\x00p\x00t\x00i\x00n' @ 583 : 1
+2023/12/13-19:36:47.300 1750 Compacting 1@1 + 1@2 files
+2023/12/13-19:36:47.302 1750 Generated table #41@1: 56 keys, 1066 bytes
+2023/12/13-19:36:47.302 1750 Compacted 1@1 + 1@2 files => 1066 bytes
+2023/12/13-19:36:47.303 1750 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/12/13-19:36:47.304 1750 Delete type=2 #40
+2023/12/13-19:36:47.304 1750 Delete type=2 #37
+2023/12/13-19:36:47.304 1750 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00o\x00p\x00t\x00i\x00n' @ 583 : 1 .. (end); will stop at (end)

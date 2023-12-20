@@ -1,0 +1,629 @@
+[2023-12-14 22:50:57.482] [5197] (engine.cpp:467): Created native Engine, time: Thu Dec 14 22:50:57 2023 PST, logPath: /home/ansel/.config/discord/0.0.38/modules/discord_voice/, logLevel: 2
+[2023-12-14 22:50:57.484] [5197] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-12-14 22:50:57.484] [5197] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-12-14 22:50:57.484] [5197] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-14 22:50:57.484] [5197] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-12-14 22:50:57.484] [5197] (audio_device_impl.cc:143): current platform is Linux
+[2023-12-14 22:50:57.484] [5197] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-12-14 22:50:57.484] [5197] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-12-14 22:50:57.484] [5197] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-12-14 22:50:57.484] [5197] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-12-14 22:50:57.484] [5197] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-12-14 22:50:57.485] [5197] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-12-14 22:50:57.485] [5197] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-12-14 22:50:57.485] [5197] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-12-14 22:50:57.485] [5197] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-12-14 22:50:57.485] [5197] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-12-14 22:50:57.485] [5197] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-12-14 22:50:57.485] [5197] (audio_device_impl.cc:143): current platform is Linux
+[2023-12-14 22:50:57.485] [5197] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-12-14 22:50:57.485] [5197] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-12-14 22:50:57.485] [5197] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-12-14 22:50:57.485] [5197] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-12-14 22:50:57.485] [5197] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-12-14 22:50:57.485] [5197] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-12-14 22:50:57.485] [5197] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-12-14 22:50:57.485] [5197] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-12-14 22:50:57.485] [5197] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-12-14 22:50:57.485] [5197] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-12-14 22:50:57.485] [5197] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-12-14 22:50:57.485] [5197] (audio_engine.cpp:400): Creating audio engine: standard
+[2023-12-14 22:50:57.485] [5197] (audio_device_impl.cc:364): Init
+[2023-12-14 22:50:57.490] [5197] (audio_device_impl.cc:364): Init
+[2023-12-14 22:50:57.492] [5197] (audio_coding.cpp:149): Using software Opus decoder
+[2023-12-14 22:50:57.492] [5197] (audio_coding.cpp:166): Using software Opus encoder
+[2023-12-14 22:50:57.492] [5197] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-12-14 22:50:57.492] [5197] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-12-14 22:50:57.492] [5197] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-14 22:50:57.492] [5197] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-12-14 22:50:57.492] [5197] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2023-12-14 22:50:57.492] [5197] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-14 22:50:57.492] [5197] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-14 22:50:57.492] [5197] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-14 22:50:57.492] [5197] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-14 22:50:57.493] [5197] (audio_device_impl.cc:573): output: 1
+[2023-12-14 22:50:57.493] [5197] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-14 22:50:57.493] [5197] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-14 22:50:57.493] [5197] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-14 22:50:57.493] [5197] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-14 22:50:57.493] [5197] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-14 22:50:57.493] [5197] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-14 22:50:57.493] [5197] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-14 22:50:57.493] [5197] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-14 22:50:57.493] [5197] (audio_device_impl.cc:619): output: 1
+[2023-12-14 22:50:57.493] [5197] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-14 22:50:57.493] [5197] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-14 22:50:57.493] [5197] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-12-14 22:50:57.493] [5197] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-12-14 22:50:57.493] [5197] (audio_device_impl.cc:914): output: 0
+[2023-12-14 22:50:57.493] [5197] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-14 22:50:57.494] [5197] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-12-14 22:50:57.494] [5197] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-12-14 22:50:57.494] [5197] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-14 22:50:57.494] [5197] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-12-14 22:50:57.494] [5197] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-12-14 22:50:57.494] [5197] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-12-14 22:50:57.494] [5197] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-12-14 22:50:57.494] [5197] (captured_audio_processor.cpp:115): SetNoiseCancellation: 0
+[2023-12-14 22:50:57.494] [5197] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-14 22:50:57.494] [5197] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-12-14 22:50:57.640] [5197] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2023-12-14 22:50:57.640] [5197] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-12-14 22:50:57.640] [5197] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-14 22:50:57.640] [5197] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-14 22:50:57.640] [5197] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-14 22:50:57.641] [5197] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-14 22:50:57.641] [5197] (audio_device_impl.cc:573): output: 1
+[2023-12-14 22:50:57.641] [5197] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-14 22:50:57.641] [5197] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-14 22:50:57.641] [5197] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-14 22:50:57.641] [5197] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-14 22:50:57.641] [5197] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-14 22:50:57.641] [5197] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-14 22:50:57.641] [5197] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-14 22:50:57.641] [5197] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-14 22:50:57.641] [5197] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-14 22:50:57.642] [5197] (audio_device_impl.cc:619): output: 1
+[2023-12-14 22:50:57.642] [5197] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-14 22:50:57.642] [5197] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-14 22:50:57.642] [5197] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-14 22:50:57.642] [5197] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-14 22:50:57.642] [5197] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-14 22:50:57.645] [5162] (discord.cpp:763): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 254518, Version Hash: 61f5b93c47200f6eeb6302f0f267b6fc8573735f"]
+[2023-12-14 22:50:57.757] [5162] (discord.cpp:763): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-12-14 22:50:57.817] [5162] (discord.cpp:763): JS console: ["%c[default]","[NATIVE INFO] host 0.0.38, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, build: null"]
+[2023-12-14 22:50:57.873] [5197] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2023-12-14 22:50:57.874] [5197] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-12-14 22:50:57.874] [5197] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-14 22:50:57.874] [5197] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-14 22:50:57.874] [5197] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-14 22:50:57.874] [5197] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-14 22:50:57.874] [5197] (audio_device_impl.cc:573): output: 1
+[2023-12-14 22:50:57.874] [5197] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-14 22:50:57.874] [5197] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-14 22:50:57.874] [5197] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-14 22:50:57.874] [5197] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-14 22:50:57.874] [5197] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-14 22:50:57.874] [5197] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-14 22:50:57.874] [5197] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-14 22:50:57.875] [5197] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-14 22:50:57.875] [5197] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-14 22:50:57.875] [5197] (audio_device_impl.cc:619): output: 1
+[2023-12-14 22:50:57.875] [5197] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-14 22:50:57.875] [5197] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-14 22:50:57.879] [5162] (discord.cpp:763): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-12-14 22:50:58.015] [5162] (discord.cpp:763): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-12-14 22:50:58.790] [5162] (discord.cpp:763): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-12-14 22:50:59.824] [5162] (discord.cpp:763): JS console: ["Initializing krisp module"]
+[2023-12-14 22:51:00.240] [5162] (discord.cpp:763): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-12-14 22:51:00.250] [5162] (discord.cpp:763): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-12-14 22:51:01.533] [5162] (discord.cpp:763): JS console: ["%c[RPCServer:WSS]","Socket Message: 3","[object Object]"]
+[2023-12-14 22:51:01.541] [5162] (discord.cpp:763): JS console: ["%c[RPCServer:WSS]","Socket Emit: 3","[object Object]"]
+[2023-12-14 22:51:01.631] [5162] (discord.cpp:763): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2023-12-14 22:51:01.794] [5162] (discord.cpp:763): JS console: ["%c[LoginQRSocket]","[164ms] got hello, auth timeout=124469ms"]
+[2023-12-14 22:51:01.827] [5162] (discord.cpp:763): JS console: ["%c[LoginQRSocket]","[197ms] connected, handshaking with fingerprint: dDAQys-CG4KL2rDosQbfdKmyaqlh5b_nocVGvu2p6kQ"]
+[2023-12-14 22:51:01.900] [5162] (discord.cpp:763): JS console: ["%c[LoginQRSocket]","[270ms] computed nonce proof"]
+[2023-12-14 22:51:01.972] [5162] (discord.cpp:763): JS console: ["%c[LoginQRSocket]","[342ms] handshake complete awaiting remote auth."]
+[2023-12-14 22:51:47.779] [5162] (discord.cpp:763): JS console: ["%c[LoginQRSocket]","[46145ms] remote auth handshake started, awaiting ticket/cancel."]
+[2023-12-14 22:51:53.620] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2023-12-14 22:51:53.637] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching LOGIN_SUCCESS"]
+[2023-12-14 22:51:53.670] [5162] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /app"]
+[2023-12-14 22:51:53.685] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-14 22:51:53.692] [5162] (discord.cpp:763): JS console: ["%c[LoginQRSocket]","[52061ms] cleaning up"]
+[2023-12-14 22:51:53.922] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 237 ms"]
+[2023-12-14 22:51:54.288] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 602ms, as 236ef6851aa2783d8ca6a34e8a89cfde"]
+[2023-12-14 22:51:54.303] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-14 22:51:54.307] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: undefined)"]
+[2023-12-14 22:51:54.320] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-14 22:51:54.333] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-14 22:51:54.334] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Added account: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-14 22:51:54.378] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 692ms"]
+[2023-12-14 22:51:54.974] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-14 22:51:55.118] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-14 22:51:55.133] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-14 22:52:03.573] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-14 22:52:03.640] [5162] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1163644561176940604/1163644561176940607"]
+[2023-12-14 22:52:03.901] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-14 22:52:16.569] [5532] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2023-12-14 22:52:16.569] [5532] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2023-12-14 22:52:16.569] [5532] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2023-12-14 22:52:16.569] [5532] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2023-12-14 22:52:16.569] [5532] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2023-12-14 22:52:16.637] [5532] (region_latency_tester.cpp:271): Average RTT for region us-west is 11
+[2023-12-14 22:52:16.637] [5532] (region_latency_tester.cpp:271): Average RTT for region santa-clara is 18
+[2023-12-14 22:52:16.637] [5532] (region_latency_tester.cpp:271): Average RTT for region seattle is 36
+[2023-12-14 22:52:16.637] [5532] (region_latency_tester.cpp:271): Average RTT for region us-south is 39
+[2023-12-14 22:52:16.637] [5532] (region_latency_tester.cpp:271): Average RTT for region us-central is 67.25
+[2023-12-14 22:54:05.750] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:8141"]
+[2023-12-14 22:54:05.750] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:8141 QueueLength: 0"]
+[2023-12-14 22:54:05.751] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-14 22:54:06.027] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:8141 QueueLength: 0"]
+[2023-12-14 23:06:18.605] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1000603174014558298 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-14 23:06:18.690] [5162] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1000603173561577513/1000603174014558298"]
+[2023-12-14 23:06:19.052] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 22 messages for 1000603174014558298 isBefore:false isAfter:false"]
+[2023-12-14 23:06:21.799] [5162] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1163644561176940604/1163644561176940607"]
+[2023-12-15 09:49:35.834] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 1.81 seconds."]
+[2023-12-15 09:49:37.645] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-15 09:49:37.766] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 120 ms"]
+[2023-12-15 09:49:38.154] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-15 09:49:38.367] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 722ms, as e7776de1a01fd95de1d7b8b8d58bdfd6"]
+[2023-12-15 09:49:38.372] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-15 09:49:38.375] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-15 09:49:38.380] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-15 09:49:38.402] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-15 09:49:38.605] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 959ms"]
+[2023-12-15 09:49:38.615] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-15 10:05:55.285] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 994ms"]
+[2023-12-15 10:05:56.280] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-15 10:05:56.781] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-15 10:05:57.085] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-15 10:05:57.198] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-15 10:05:57.202] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-15 10:21:30.678] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:","[object Object]"]
+[2023-12-15 10:27:17.719] [5162] (discord.cpp:763): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2023-12-15 10:39:46.883] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-15 10:47:17.364] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-15 10:47:18.047] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 681 ms"]
+[2023-12-15 10:47:18.047] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session e7776de1a01fd95de1d7b8b8d58bdfd6, seq: 89"]
+[2023-12-15 10:47:18.159] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 794ms, replayed 1 events, new seq: 90"]
+[2023-12-15 10:47:18.196] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-15 10:48:49.550] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:","[object Object]"]
+[2023-12-15 10:49:03.764] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-15 10:49:09.386] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:","[object Object]"]
+[2023-12-15 10:49:20.672] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-15 10:53:01.739] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:","[object Object]"]
+[2023-12-15 10:58:10.896] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:3680"]
+[2023-12-15 10:58:10.896] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:3680 QueueLength: 0"]
+[2023-12-15 10:58:10.896] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 10:58:11.386] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:3680 QueueLength: 0"]
+[2023-12-15 10:58:43.116] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:7880"]
+[2023-12-15 10:58:43.116] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:7880 QueueLength: 0"]
+[2023-12-15 10:58:43.116] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 10:58:43.441] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:7880 QueueLength: 0"]
+[2023-12-15 11:05:47.285] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:9434"]
+[2023-12-15 11:05:47.287] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:9434 QueueLength: 0"]
+[2023-12-15 11:05:47.287] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:05:47.685] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:9434 QueueLength: 0"]
+[2023-12-15 11:06:04.801] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:7729"]
+[2023-12-15 11:06:04.802] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:7729 QueueLength: 0"]
+[2023-12-15 11:06:04.802] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:06:05.196] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:7729 QueueLength: 0"]
+[2023-12-15 11:39:06.326] [5162] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload16"]
+[2023-12-15 11:39:06.673] [5162] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Uploading upload16"]
+[2023-12-15 11:39:07.967] [5162] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload16"]
+[2023-12-15 11:39:10.065] [5162] (discord.cpp:763): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 204641 bytes and 1 attachments for Uploader18"]
+[2023-12-15 11:39:10.510] [5162] (discord.cpp:763): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader18"]
+[2023-12-15 11:39:18.246] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:6056"]
+[2023-12-15 11:39:18.247] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:6056 QueueLength: 0"]
+[2023-12-15 11:39:18.248] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:39:18.598] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:6056 QueueLength: 0"]
+[2023-12-15 11:42:20.839] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:3170"]
+[2023-12-15 11:42:20.841] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:3170 QueueLength: 0"]
+[2023-12-15 11:42:20.841] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:42:21.459] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:3170 QueueLength: 0"]
+[2023-12-15 11:43:10.931] [5162] (discord.cpp:763): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-12-15 11:43:10.961] [5162] (discord.cpp:763): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-12-15 11:43:10.992] [5162] (discord.cpp:763): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-12-15 11:43:14.181] [5162] (discord.cpp:763): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-12-15 11:43:14.202] [5162] (discord.cpp:763): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-12-15 11:43:14.214] [5162] (discord.cpp:763): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-12-15 11:43:23.204] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:4380"]
+[2023-12-15 11:43:23.204] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:4380 QueueLength: 0"]
+[2023-12-15 11:43:23.204] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:43:23.707] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:4380 QueueLength: 0"]
+[2023-12-15 11:43:25.787] [5162] (discord.cpp:763): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-12-15 11:43:25.809] [5162] (discord.cpp:763): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-12-15 11:43:25.814] [5162] (discord.cpp:763): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-12-15 11:43:27.472] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 714952186857128079 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-15 11:43:27.589] [5162] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/714952186857128076/714952186857128079"]
+[2023-12-15 11:43:28.219] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 14 messages for 714952186857128079 isBefore:false isAfter:false"]
+[2023-12-15 11:43:29.648] [5162] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1163644561176940604/1163644561176940607"]
+[2023-12-15 11:43:29.889] [5162] (discord.cpp:763): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Updating userContent with delay 0"]
+[2023-12-15 11:43:29.898] [5162] (discord.cpp:763): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Scheduling save from markDirty"]
+[2023-12-15 11:43:29.946] [5162] (discord.cpp:763): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Persisting proto"]
+[2023-12-15 11:43:35.307] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:8250"]
+[2023-12-15 11:43:35.307] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:8250 QueueLength: 0"]
+[2023-12-15 11:43:35.307] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:43:35.637] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:8250 QueueLength: 0"]
+[2023-12-15 11:43:47.853] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:7380"]
+[2023-12-15 11:43:47.853] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:7380 QueueLength: 0"]
+[2023-12-15 11:43:47.853] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:43:48.597] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:7380 QueueLength: 0"]
+[2023-12-15 11:45:10.771] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:7383"]
+[2023-12-15 11:45:10.771] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:7383 QueueLength: 0"]
+[2023-12-15 11:45:10.771] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:45:11.089] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:7383 QueueLength: 0"]
+[2023-12-15 11:45:26.523] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:9140"]
+[2023-12-15 11:45:26.523] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:9140 QueueLength: 0"]
+[2023-12-15 11:45:26.523] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:45:28.005] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:9140 QueueLength: 0"]
+[2023-12-15 11:47:28.881] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:1894"]
+[2023-12-15 11:47:28.883] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:1894 QueueLength: 0"]
+[2023-12-15 11:47:28.883] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:47:29.451] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:1894 QueueLength: 0"]
+[2023-12-15 11:47:38.988] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:5081"]
+[2023-12-15 11:47:38.988] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:5081 QueueLength: 0"]
+[2023-12-15 11:47:38.988] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:47:39.374] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:5081 QueueLength: 0"]
+[2023-12-15 11:47:43.247] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:1268"]
+[2023-12-15 11:47:43.247] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:1268 QueueLength: 0"]
+[2023-12-15 11:47:43.247] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:47:44.809] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:1268 QueueLength: 0"]
+[2023-12-15 11:47:59.324] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:6861"]
+[2023-12-15 11:47:59.324] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:6861 QueueLength: 0"]
+[2023-12-15 11:47:59.324] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:47:59.953] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:6861 QueueLength: 0"]
+[2023-12-15 11:52:53.232] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:8554"]
+[2023-12-15 11:52:53.233] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:8554 QueueLength: 0"]
+[2023-12-15 11:52:53.234] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:52:53.537] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:8554 QueueLength: 0"]
+[2023-12-15 11:55:19.365] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:9575"]
+[2023-12-15 11:55:19.365] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:9575 QueueLength: 0"]
+[2023-12-15 11:55:19.365] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:55:20.052] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:9575 QueueLength: 0"]
+[2023-12-15 11:55:21.473] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:5797"]
+[2023-12-15 11:55:21.473] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:5797 QueueLength: 0"]
+[2023-12-15 11:55:21.473] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-15 11:55:21.866] [5162] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:5797 QueueLength: 0"]
+[2023-12-15 12:00:16.143] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-15 12:00:16.579] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-15 12:00:16.701] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-15 12:00:33.276] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:","[object Object]"]
+[2023-12-15 12:00:55.601] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-15 12:15:22.974] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:","[object Object]"]
+[2023-12-15 23:34:13.837] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 1.61 seconds."]
+[2023-12-15 23:34:14.814] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-15 23:34:14.824] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.98 seconds."]
+[2023-12-15 23:34:17.808] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-15 23:34:18.231] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 422 ms"]
+[2023-12-15 23:34:18.797] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-15 23:34:18.815] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 1007ms, as a4beb739331d9d8176bdf7eb80598e07"]
+[2023-12-15 23:34:18.821] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-15 23:34:18.823] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-15 23:34:18.830] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-15 23:34:18.852] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-15 23:34:18.886] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 1078ms"]
+[2023-12-15 23:34:19.379] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-15 23:34:51.539] [29241] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2023-12-15 23:34:51.540] [29241] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2023-12-15 23:34:51.540] [29241] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2023-12-15 23:34:51.540] [29241] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2023-12-15 23:34:51.540] [29241] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2023-12-15 23:34:52.148] [29241] (region_latency_tester.cpp:271): Average RTT for region santa-clara is 600
+[2023-12-15 23:34:52.148] [29241] (region_latency_tester.cpp:271): Average RTT for region us-west is 601.25
+[2023-12-15 23:34:52.148] [29241] (region_latency_tester.cpp:271): Average RTT for region seattle is 603
+[2023-12-15 23:34:52.148] [29241] (region_latency_tester.cpp:271): Average RTT for region us-south is 604
+[2023-12-15 23:34:52.148] [29241] (region_latency_tester.cpp:271): Average RTT for region us-central is 605.5
+[2023-12-15 23:51:31.273] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 627ms"]
+[2023-12-15 23:51:31.900] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-15 23:51:33.169] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-15 23:51:33.988] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-15 23:51:34.199] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-15 23:51:34.410] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-16 00:27:01.511] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-16 00:27:02.305] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 793 ms"]
+[2023-12-16 00:27:02.305] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session a4beb739331d9d8176bdf7eb80598e07, seq: 53"]
+[2023-12-16 00:27:02.511] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 1000ms, replayed 1 events, new seq: 54"]
+[2023-12-16 00:27:02.547] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-16 00:54:24.372] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-16 00:54:25.181] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 809 ms"]
+[2023-12-16 00:54:25.181] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session a4beb739331d9d8176bdf7eb80598e07, seq: 70"]
+[2023-12-16 00:54:25.394] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 1022ms, replayed 1 events, new seq: 71"]
+[2023-12-16 00:54:25.430] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-16 21:06:31.210] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 1.47 seconds."]
+[2023-12-16 21:06:32.678] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-16 21:06:32.877] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 199 ms"]
+[2023-12-16 21:06:33.326] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-16 21:06:33.500] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 822ms, as b6325be19f2077a51a6ca6471b45db64"]
+[2023-12-16 21:06:33.508] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-16 21:06:33.510] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-16 21:06:33.516] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-16 21:06:33.535] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-16 21:06:33.561] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 883ms"]
+[2023-12-16 21:06:33.935] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-16 21:06:40.104] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 903ms"]
+[2023-12-16 21:06:41.006] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-16 21:06:42.132] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-16 21:06:42.495] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-16 21:06:42.583] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-16 21:06:42.654] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-17 02:25:01.125] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.28 seconds."]
+[2023-12-17 02:25:03.403] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 02:25:04.517] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1114 ms"]
+[2023-12-17 02:25:04.597] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 1398ms"]
+[2023-12-17 02:25:05.438] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-17 02:25:05.472] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 2069ms, as bd94d9c632e4be03f8043a33e00affbc"]
+[2023-12-17 02:25:05.479] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-17 02:25:05.479] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-17 02:25:05.486] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-17 02:25:05.498] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-17 02:25:05.516] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 2113ms"]
+[2023-12-17 02:25:05.829] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-17 02:25:05.995] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-17 02:25:07.347] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-17 02:25:07.858] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-17 02:25:07.975] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-17 02:25:07.977] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-17 02:25:40.052] [34913] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2023-12-17 02:25:40.052] [34913] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2023-12-17 02:25:40.052] [34913] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2023-12-17 02:25:40.052] [34913] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2023-12-17 02:25:40.052] [34913] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2023-12-17 02:25:40.677] [34913] (region_latency_tester.cpp:271): Average RTT for region santa-clara is 611
+[2023-12-17 02:25:40.677] [34913] (region_latency_tester.cpp:271): Average RTT for region us-west is 617
+[2023-12-17 02:25:40.677] [34913] (region_latency_tester.cpp:271): Average RTT for region seattle is 623
+[2023-12-17 02:25:40.677] [34913] (region_latency_tester.cpp:271): Average RTT for region us-south is 623
+[2023-12-17 02:25:40.677] [34913] (region_latency_tester.cpp:271): Average RTT for region us-central is 623.25
+[2023-12-17 03:03:26.510] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 03:03:27.323] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 813 ms"]
+[2023-12-17 03:03:27.323] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session bd94d9c632e4be03f8043a33e00affbc, seq: 49"]
+[2023-12-17 03:03:27.467] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 956ms, replayed 1 events, new seq: 50"]
+[2023-12-17 03:03:27.502] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-17 10:03:23.457] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 1.03 seconds."]
+[2023-12-17 10:03:24.486] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 10:03:24.709] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 223 ms"]
+[2023-12-17 10:03:25.098] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-17 10:03:25.304] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 817ms, as 5b8ee5f41a57a281292c8ba348ab6687"]
+[2023-12-17 10:03:25.314] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-17 10:03:25.315] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-17 10:03:25.322] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-17 10:03:25.329] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-17 10:03:25.348] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 861ms"]
+[2023-12-17 10:03:26.135] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-17 10:03:27.573] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 519ms"]
+[2023-12-17 10:03:28.091] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-17 10:03:29.441] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-17 10:03:35.491] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-17 10:03:36.267] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-17 10:03:36.388] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-17 18:51:38.408] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 1.44 seconds."]
+[2023-12-17 18:51:39.844] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 18:51:40.515] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 671 ms"]
+[2023-12-17 18:51:41.400] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-17 18:51:41.531] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 1687ms, as 96755e13f065580476cbc739c404d962"]
+[2023-12-17 18:51:41.537] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-17 18:51:41.537] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-17 18:51:41.541] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-17 18:51:41.551] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-17 18:51:41.572] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 1728ms"]
+[2023-12-17 18:51:42.041] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-17 18:51:45.845] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 1290ms"]
+[2023-12-17 18:51:47.125] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-17 18:51:48.185] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-17 18:51:49.111] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-17 18:51:49.315] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-17 18:51:49.318] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-17 18:54:21.416] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 2.70 seconds."]
+[2023-12-17 18:54:24.129] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 18:54:28.610] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 4470 ms"]
+[2023-12-17 18:54:28.610] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 96755e13f065580476cbc739c404d962, seq: 10"]
+[2023-12-17 18:54:28.811] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 4682ms, replayed 3 events, new seq: 13"]
+[2023-12-17 18:54:28.845] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-17 20:06:22.477] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 1.40 seconds."]
+[2023-12-17 20:06:23.877] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 20:06:23.951] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.67 seconds."]
+[2023-12-17 20:06:27.635] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 20:06:29.224] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1588 ms"]
+[2023-12-17 20:06:34.665] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-17 20:06:34.691] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 7055ms, as a48fac19266303712ade4322d3c31b9f"]
+[2023-12-17 20:06:34.697] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-17 20:06:34.697] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-17 20:06:34.702] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-17 20:06:34.713] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-17 20:06:34.736] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 7101ms"]
+[2023-12-17 20:06:35.084] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-17 20:06:43.146] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 553ms"]
+[2023-12-17 20:06:43.685] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-17 20:06:45.590] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-17 20:06:46.741] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-17 20:06:46.839] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-17 20:06:46.842] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-17 20:11:54.412] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.77 seconds."]
+[2023-12-17 20:11:57.190] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 20:11:59.529] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 2338 ms"]
+[2023-12-17 20:11:59.790] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-17 20:11:59.955] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 2764ms, as 2ee9570fe2885f07bb15327d4bab730f"]
+[2023-12-17 20:11:59.957] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-17 20:11:59.958] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-17 20:11:59.962] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-17 20:11:59.974] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-17 20:12:00.000] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 2809ms"]
+[2023-12-17 20:12:05.395] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-17 20:15:11.931] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.71 seconds."]
+[2023-12-17 20:15:14.656] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 20:15:14.879] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.90 seconds."]
+[2023-12-17 20:15:17.783] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 20:15:23.414] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 5620 ms"]
+[2023-12-17 20:15:23.420] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 2ee9570fe2885f07bb15327d4bab730f, seq: 13"]
+[2023-12-17 20:15:23.558] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[INVALID_SESSION]"]
+[2023-12-17 20:15:23.878] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-17 20:15:23.901] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 6116ms, as ebfef8e75e52a13613ef98048f1b5b45"]
+[2023-12-17 20:15:23.912] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-17 20:15:23.912] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-17 20:15:23.922] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-17 20:15:23.930] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-17 20:15:23.953] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 6169ms"]
+[2023-12-17 20:15:24.790] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-17 20:15:42.715] [5162] (discord.cpp:763): JS console: ["%c[RTCLatencyTestManager]","Error: Request has been terminated\nPossible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc."]
+[2023-12-17 20:43:24.449] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.16 seconds."]
+[2023-12-17 20:43:26.609] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 20:43:26.677] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.84 seconds."]
+[2023-12-17 20:43:28.887] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 528ms"]
+[2023-12-17 20:43:29.414] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-17 20:43:31.103] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-17 20:43:31.363] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-17 20:43:31.365] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-17 20:43:32.519] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 20:43:36.252] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 3724 ms"]
+[2023-12-17 20:43:36.692] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-17 20:43:37.391] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 4871ms, as 8d23cb27bef932c17edc458d36005786"]
+[2023-12-17 20:43:37.396] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-17 20:43:37.396] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-17 20:43:37.401] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-17 20:43:37.409] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-17 20:43:37.430] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 4911ms"]
+[2023-12-17 20:43:38.105] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-17 20:46:49.438] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 2.35 seconds."]
+[2023-12-17 20:46:51.785] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 20:46:52.806] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1020 ms"]
+[2023-12-17 20:46:52.806] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 8d23cb27bef932c17edc458d36005786, seq: 14"]
+[2023-12-17 20:46:53.981] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 2195ms, replayed 4 events, new seq: 18"]
+[2023-12-17 20:46:54.014] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-17 23:49:55.419] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.92 seconds."]
+[2023-12-17 23:49:58.124] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 1217ms"]
+[2023-12-17 23:49:58.342] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 23:49:58.795] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.02 seconds."]
+[2023-12-17 23:49:59.342] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-17 23:50:00.868] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Updated account access token: df32l3uy0tfl5hi8yvydhl739"]
+[2023-12-17 23:50:02.500] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-17 23:50:03.811] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-17 23:50:05.983] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Devices updated for df32l3uy0tfl5hi8yvydhl739:",""]
+[2023-12-17 23:50:05.986] [5162] (discord.cpp:763): JS console: ["%c[Spotify]","Profile updated for df32l3uy0tfl5hi8yvydhl739: isPremium = true"]
+[2023-12-17 23:50:07.271] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 3460 ms"]
+[2023-12-17 23:50:07.647] [5162] (discord.cpp:763): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1163644561176940604"]
+[2023-12-17 23:50:07.681] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 3870ms, as 07f8f7d8ed81ef399359303b1c628c24"]
+[2023-12-17 23:50:07.687] [5162] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-17 23:50:07.688] [5162] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 704161520736534538, database: null)"]
+[2023-12-17 23:50:07.697] [5162] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-17 23:50:07.705] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1163644561176940607 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-17 23:50:07.727] [5162] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 3916ms"]
+[2023-12-17 23:50:08.032] [5162] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1163644561176940607 isBefore:false isAfter:false"]
+[2023-12-17 23:50:27.630] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.631] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.631] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.631] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.631] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.631] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.631] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.631] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.631] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.632] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.633] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.633] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.633] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.633] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.633] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.634] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.635] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.636] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.637] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.638] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.638] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.638] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]
+[2023-12-17 23:50:27.638] [5162] (discord.cpp:763): JS console: ["Window state not initialized","window-1"]

@@ -1,0 +1,7 @@
+2023/12/13-19:58:01.979 1750 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/WebStorage/23/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/12/13-19:58:01.979 1750 Recovering log #6
+2023/12/13-19:58:01.979 1750 Reusing old log /home/ansel/.config/google-chrome/Default/WebStorage/23/IndexedDB/indexeddb.leveldb/000006.log 
+2023/12/13-19:58:04.264 1750 Level-0 table #11: started
+2023/12/13-19:58:04.265 1750 Level-0 table #11: 577 bytes OK
+2023/12/13-19:58:04.267 1750 Delete type=0 #6
+2023/12/13-19:58:04.267 1750 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

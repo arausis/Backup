@@ -1,0 +1,45 @@
+2023/12/18-18:27:49.561 1461 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/12/18-18:27:49.574 1461 Recovering log #195
+2023/12/18-18:27:49.581 1461 Reusing old log /home/ansel/.config/google-chrome/Default/Sync Data/LevelDB/000195.log 
+2023/12/18-18:30:40.679 1460 Level-0 table #199: started
+2023/12/18-18:30:40.686 1460 Level-0 table #199: 89066 bytes OK
+2023/12/18-18:30:40.689 1460 Delete type=0 #195
+2023/12/18-18:30:40.690 1460 Compacting 4@0 + 1@1 files
+2023/12/18-18:30:40.698 1460 Generated table #200@0: 221 keys, 33647 bytes
+2023/12/18-18:30:40.698 1460 Compacted 4@0 + 1@1 files => 33647 bytes
+2023/12/18-18:30:40.699 1460 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/18-18:30:40.700 1460 Delete type=2 #194
+2023/12/18-18:30:40.700 1460 Delete type=2 #196
+2023/12/18-18:30:40.700 1460 Delete type=2 #199
+2023/12/18-18:30:40.700 1460 Delete type=2 #192
+2023/12/18-18:30:40.700 1460 Delete type=2 #190
+2023/12/18-19:16:20.753 1461 Level-0 table #202: started
+2023/12/18-19:16:20.763 1461 Level-0 table #202: 144592 bytes OK
+2023/12/18-19:16:20.764 1461 Delete type=0 #198
+2023/12/18-20:38:47.260 1461 Level-0 table #204: started
+2023/12/18-20:38:47.264 1461 Level-0 table #204: 109821 bytes OK
+2023/12/18-20:38:47.265 1461 Delete type=0 #201
+2023/12/18-20:40:12.416 1461 Level-0 table #206: started
+2023/12/18-20:40:12.421 1461 Level-0 table #206: 94210 bytes OK
+2023/12/18-20:40:12.424 1461 Delete type=0 #203
+2023/12/18-20:42:05.153 1461 Level-0 table #208: started
+2023/12/18-20:42:05.161 1461 Level-0 table #208: 100081 bytes OK
+2023/12/18-20:42:05.162 1461 Delete type=0 #205
+2023/12/18-20:42:05.163 1461 Compacting 4@0 + 1@1 files
+2023/12/18-20:42:05.166 1461 Generated table #209@0: 223 keys, 44517 bytes
+2023/12/18-20:42:05.166 1461 Compacted 4@0 + 1@1 files => 44517 bytes
+2023/12/18-20:42:05.168 1461 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/18-20:42:05.168 1461 Delete type=2 #202
+2023/12/18-20:42:05.168 1461 Delete type=2 #200
+2023/12/18-20:42:05.168 1461 Delete type=2 #204
+2023/12/18-20:42:05.168 1461 Delete type=2 #206
+2023/12/18-20:42:05.168 1461 Delete type=2 #208
+2023/12/18-20:43:28.966 1461 Level-0 table #211: started
+2023/12/18-20:43:28.975 1461 Level-0 table #211: 105776 bytes OK
+2023/12/18-20:43:28.977 1461 Delete type=0 #207
+2023/12/19-14:47:18.690 1461 Level-0 table #213: started
+2023/12/19-14:47:18.694 1461 Level-0 table #213: 118841 bytes OK
+2023/12/19-14:47:18.695 1461 Delete type=0 #210
+2023/12/19-14:49:26.811 146c Level-0 table #215: started
+2023/12/19-14:49:26.820 146c Level-0 table #215: 158166 bytes OK
+2023/12/19-14:49:26.822 146c Delete type=0 #212

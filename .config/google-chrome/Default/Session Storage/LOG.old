@@ -1,0 +1,42 @@
+2023/12/14-22:42:28.868 4 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2023/12/14-22:42:28.869 4 Recovering log #172
+2023/12/14-22:42:28.870 4 Reusing old log /home/ansel/.config/google-chrome/Default/Session Storage/000172.log 
+2023/12/14-22:43:26.924 4 Level-0 table #176: started
+2023/12/14-22:43:26.926 4 Level-0 table #176: 14299 bytes OK
+2023/12/14-22:43:26.929 4 Delete type=0 #172
+2023/12/14-23:03:05.384 6 Level-0 table #178: started
+2023/12/14-23:03:05.388 6 Level-0 table #178: 20682 bytes OK
+2023/12/14-23:03:05.392 6 Delete type=0 #175
+2023/12/14-23:03:05.392 6 Compacting 4@0 + 1@1 files
+2023/12/14-23:03:05.396 6 Generated table #179@0: 26 keys, 13281 bytes
+2023/12/14-23:03:05.396 6 Compacted 4@0 + 1@1 files => 13281 bytes
+2023/12/14-23:03:05.398 6 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/12/14-23:03:05.399 6 Delete type=2 #176
+2023/12/14-23:03:05.399 6 Delete type=2 #173
+2023/12/14-23:03:05.400 6 Delete type=2 #169
+2023/12/14-23:03:05.400 6 Delete type=2 #178
+2023/12/14-23:03:05.400 6 Delete type=2 #171
+2023/12/15-11:44:43.549 6 Level-0 table #181: started
+2023/12/15-11:44:43.559 6 Level-0 table #181: 18043 bytes OK
+2023/12/15-11:44:43.562 6 Delete type=0 #177
+2023/12/15-11:49:31.662 6 Level-0 table #183: started
+2023/12/15-11:49:31.670 6 Level-0 table #183: 15588 bytes OK
+2023/12/15-11:49:31.673 6 Delete type=0 #180
+2023/12/15-11:53:55.960 6 Level-0 table #185: started
+2023/12/15-11:53:55.969 6 Level-0 table #185: 16016 bytes OK
+2023/12/15-11:53:55.972 6 Delete type=0 #182
+2023/12/15-12:06:36.009 6 Level-0 table #187: started
+2023/12/15-12:06:36.017 6 Level-0 table #187: 15735 bytes OK
+2023/12/15-12:06:36.019 6 Delete type=0 #184
+2023/12/15-12:06:36.020 6 Compacting 4@0 + 1@1 files
+2023/12/15-12:06:36.023 6 Generated table #188@0: 72 keys, 42220 bytes
+2023/12/15-12:06:36.023 6 Compacted 4@0 + 1@1 files => 42220 bytes
+2023/12/15-12:06:36.025 6 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/12/15-12:06:36.026 6 Delete type=2 #181
+2023/12/15-12:06:36.026 6 Delete type=2 #179
+2023/12/15-12:06:36.027 6 Delete type=2 #187
+2023/12/15-12:06:36.027 6 Delete type=2 #183
+2023/12/15-12:06:36.027 6 Delete type=2 #185
+2023/12/15-23:34:25.456 6 Level-0 table #190: started
+2023/12/15-23:34:25.465 6 Level-0 table #190: 13318 bytes OK
+2023/12/15-23:34:25.468 6 Delete type=0 #186

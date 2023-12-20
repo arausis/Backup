@@ -1,0 +1,63 @@
+2023/12/14-22:42:28.231 4 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/12/14-22:42:28.237 4 Recovering log #383
+2023/12/14-22:42:28.239 4 Reusing old log /home/ansel/.config/google-chrome/Default/Local Storage/leveldb/000383.log 
+2023/12/14-22:44:26.925 6 Level-0 table #387: started
+2023/12/14-22:44:26.934 6 Level-0 table #387: 18609 bytes OK
+2023/12/14-22:44:26.937 6 Delete type=0 #383
+2023/12/14-22:46:41.558 6 Level-0 table #389: started
+2023/12/14-22:46:41.567 6 Level-0 table #389: 51629 bytes OK
+2023/12/14-22:46:41.570 6 Delete type=0 #386
+2023/12/15-10:06:41.022 6 Level-0 table #391: started
+2023/12/15-10:06:41.029 6 Level-0 table #391: 16539 bytes OK
+2023/12/15-10:06:41.033 6 Delete type=0 #388
+2023/12/15-10:06:41.034 6 Compacting 4@0 + 1@1 files
+2023/12/15-10:06:41.079 6 Generated table #392@0: 1099 keys, 1162342 bytes
+2023/12/15-10:06:41.079 6 Compacted 4@0 + 1@1 files => 1162342 bytes
+2023/12/15-10:06:41.080 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/15-10:06:41.082 6 Delete type=2 #387
+2023/12/15-10:06:41.082 6 Delete type=2 #391
+2023/12/15-10:06:41.082 6 Delete type=2 #384
+2023/12/15-10:06:41.082 6 Delete type=2 #382
+2023/12/15-10:06:41.082 6 Delete type=2 #389
+2023/12/15-10:11:41.018 6 Level-0 table #394: started
+2023/12/15-10:11:41.026 6 Level-0 table #394: 52446 bytes OK
+2023/12/15-10:11:41.029 6 Delete type=0 #390
+2023/12/15-11:16:41.018 6 Level-0 table #396: started
+2023/12/15-11:16:41.028 6 Level-0 table #396: 53948 bytes OK
+2023/12/15-11:16:41.031 6 Delete type=0 #393
+2023/12/15-11:47:51.672 6 Level-0 table #398: started
+2023/12/15-11:47:51.675 6 Level-0 table #398: 18337 bytes OK
+2023/12/15-11:47:51.678 6 Delete type=0 #395
+2023/12/15-11:51:41.010 6 Level-0 table #400: started
+2023/12/15-11:51:41.020 6 Level-0 table #400: 53016 bytes OK
+2023/12/15-11:51:41.024 6 Delete type=0 #397
+2023/12/15-11:51:41.025 6 Compacting 4@0 + 1@1 files
+2023/12/15-11:51:41.066 6 Generated table #401@0: 1099 keys, 1162803 bytes
+2023/12/15-11:51:41.066 6 Compacted 4@0 + 1@1 files => 1162803 bytes
+2023/12/15-11:51:41.067 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/15-11:51:41.068 6 Delete type=2 #392
+2023/12/15-11:51:41.068 6 Delete type=2 #398
+2023/12/15-11:51:41.068 6 Delete type=2 #400
+2023/12/15-11:51:41.068 6 Delete type=2 #396
+2023/12/15-11:51:41.068 6 Delete type=2 #394
+2023/12/15-12:21:41.049 6 Level-0 table #403: started
+2023/12/15-12:21:41.059 6 Level-0 table #403: 53976 bytes OK
+2023/12/15-12:21:41.063 6 Delete type=0 #399
+2023/12/15-23:41:41.042 6 Level-0 table #405: started
+2023/12/15-23:41:41.053 6 Level-0 table #405: 54009 bytes OK
+2023/12/15-23:41:41.057 6 Delete type=0 #402
+2023/12/17-02:39:53.220 6 Level-0 table #407: started
+2023/12/17-02:39:53.230 6 Level-0 table #407: 57503 bytes OK
+2023/12/17-02:39:53.236 6 Delete type=0 #404
+2023/12/17-20:45:27.037 6 Level-0 table #409: started
+2023/12/17-20:45:27.047 6 Level-0 table #409: 59998 bytes OK
+2023/12/17-20:45:27.051 6 Delete type=0 #406
+2023/12/17-20:45:27.052 6 Compacting 4@0 + 1@1 files
+2023/12/17-20:45:27.095 6 Generated table #410@0: 1119 keys, 1163349 bytes
+2023/12/17-20:45:27.095 6 Compacted 4@0 + 1@1 files => 1163349 bytes
+2023/12/17-20:45:27.096 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/17-20:45:27.098 6 Delete type=2 #403
+2023/12/17-20:45:27.098 6 Delete type=2 #409
+2023/12/17-20:45:27.098 6 Delete type=2 #407
+2023/12/17-20:45:27.098 6 Delete type=2 #401
+2023/12/17-20:45:27.098 6 Delete type=2 #405

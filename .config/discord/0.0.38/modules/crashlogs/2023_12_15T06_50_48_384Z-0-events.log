@@ -1,0 +1,17 @@
+2023-12-15T06:50:48.392Z 0: 
+
+----------------------------------------------
+2023-12-15T06:50:48.408Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.38"}, modulepath: /home/ansel/.config/discord/0.0.38/modules
+2023-12-15T06:50:48.414Z 2: ✅ webContents.created web1 ""
+2023-12-15T06:50:48.415Z 3: ✅ window.created win1 "discord"
+2023-12-15T06:50:48.682Z 4: ✅ webContents.did-finish-load web1
+2023-12-15T06:50:55.446Z 5: ✅ webContents.created web2 ""
+2023-12-15T06:50:55.451Z 6: ✅ window.created win2 "Discord"
+2023-12-15T06:50:59.033Z 7: ✅ webContents.did-finish-load web2
+2023-12-15T06:50:59.133Z 8: window.close win1
+2023-12-15T06:50:59.317Z 9: webContents.destroyed web1
+2023-12-15T06:50:59.319Z 10: window.closed win1
+2023-12-16T07:36:19.848Z 11: window.close win2
+2023-12-18T07:50:27.469Z 12: before-quit
+2023-12-18T07:50:27.477Z 13: window.close win2
+2023-12-18T07:50:27.639Z 14: webContents.destroyed web2

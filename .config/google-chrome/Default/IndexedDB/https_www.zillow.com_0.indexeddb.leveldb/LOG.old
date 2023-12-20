@@ -1,0 +1,7 @@
+2023/12/18-20:37:37.945 1460 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/IndexedDB/https_www.zillow.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/18-20:37:37.946 1460 Recovering log #3
+2023/12/18-20:37:37.946 1460 Reusing old log /home/ansel/.config/google-chrome/Default/IndexedDB/https_www.zillow.com_0.indexeddb.leveldb/000003.log 
+2023/12/18-20:37:51.227 1461 Level-0 table #5: started
+2023/12/18-20:37:51.230 1461 Level-0 table #5: 1034 bytes OK
+2023/12/18-20:37:51.232 1461 Delete type=0 #3
+2023/12/18-20:37:51.233 1461 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

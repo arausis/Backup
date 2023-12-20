@@ -1,0 +1,17 @@
+2023/11/27-10:35:55.927 f8f Creating DB /home/ansel/.config/google-chrome/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb since it was missing.
+2023/11/27-10:35:55.935 f8f Reusing MANIFEST /home/ansel/.config/google-chrome/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/27-10:35:55.941 f92 Level-0 table #5: started
+2023/11/27-10:35:55.942 f92 Level-0 table #5: 649 bytes OK
+2023/11/27-10:35:55.945 f92 Delete type=0 #3
+2023/11/27-10:35:55.945 f8f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/27-10:35:55.945 f8f Level-0 table #7: started
+2023/11/27-10:35:55.947 f8f Level-0 table #7: 506 bytes OK
+2023/11/27-10:35:55.948 f8f Delete type=0 #4
+2023/11/27-10:35:55.948 f8f Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/27-10:35:55.948 f8f Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x00\x00\x05' @ 37 : 0
+2023/11/27-10:35:55.948 f8f Compacting 1@1 + 1@2 files
+2023/11/27-10:35:55.949 f8f Generated table #8@1: 6 keys, 272 bytes
+2023/11/27-10:35:55.949 f8f Compacted 1@1 + 1@2 files => 272 bytes
+2023/11/27-10:35:55.950 f8f compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/27-10:35:55.951 f8f Delete type=2 #7
+2023/11/27-10:35:55.951 f8f Manual compaction at level-1 from '\x00\x02\x00\x00\x05' @ 37 : 0 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

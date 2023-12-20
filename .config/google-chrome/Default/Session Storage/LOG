@@ -1,0 +1,21 @@
+2023/12/18-18:27:49.825 4 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2023/12/18-18:27:49.826 4 Recovering log #189
+2023/12/18-18:27:49.828 4 Reusing old log /home/ansel/.config/google-chrome/Default/Session Storage/000189.log 
+2023/12/18-18:27:51.058 4 Level-0 table #193: started
+2023/12/18-18:27:51.060 4 Level-0 table #193: 15877 bytes OK
+2023/12/18-18:27:51.062 4 Delete type=0 #189
+2023/12/19-14:47:45.406 6 Level-0 table #195: started
+2023/12/19-14:47:45.414 6 Level-0 table #195: 24346 bytes OK
+2023/12/19-14:47:45.417 6 Delete type=0 #192
+2023/12/19-14:51:35.970 6 Level-0 table #197: started
+2023/12/19-14:51:35.978 6 Level-0 table #197: 40398 bytes OK
+2023/12/19-14:51:35.979 6 Delete type=0 #194
+2023/12/19-14:51:35.980 6 Compacting 4@0 + 1@1 files
+2023/12/19-14:51:35.982 6 Generated table #198@0: 170 keys, 43126 bytes
+2023/12/19-14:51:35.982 6 Compacted 4@0 + 1@1 files => 43126 bytes
+2023/12/19-14:51:35.983 6 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/12/19-14:51:35.984 6 Delete type=2 #197
+2023/12/19-14:51:35.984 6 Delete type=2 #193
+2023/12/19-14:51:35.984 6 Delete type=2 #188
+2023/12/19-14:51:35.984 6 Delete type=2 #195
+2023/12/19-14:51:35.984 6 Delete type=2 #190

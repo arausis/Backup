@@ -1,0 +1,101 @@
+snippet dm "Math" wA
+\[
+$1
+\] $0
+endsnippet
+
+snippet sum "Summation symbol"
+\mathlarger{\mathlarger{\sum}}_{n=0}^{$1} $0
+endsnippet
+
+snippet bf "Bold" wA
+\textbf{$1}$0
+endsnippet
+
+snippet box "Box"
+`!p snip.rv = '┌' + '─' * (len(t[1]) + 2) + '┐'`
+│ $1 │
+`!p snip.rv = '└' + '─' * (len(t[1]) + 2) + '┘'`
+$0
+endsnippet
+
+snippet mm "Inline math" wA
+$ $1 $ $0
+endsnippet
+
+snippet txt "Inline Text" 
+\text{$1} $0
+endsnippet
+
+snippet sqrt "Square Root" 
+\sqrt{$1} $0
+endsnippet
+
+snippet frac "Fraction" 
+\frac{$1}{$2} $0
+endsnippet
+
+
+snippet item "Itemize"  
+\begin{itemize}
+	\item $1
+\end{itemize}
+$0
+endsnippet
+
+snippet sec "section" 
+\section{$1}
+$0
+endsnippet
+
+snippet sec* "un-numbered section"
+\section*{$1}
+$0
+endsnippet
+
+snippet sub "subsection"
+\subsection{$1}
+$0
+endsnippet
+
+snippet sub* "un-numbered subsection"
+\subsection*{$1}
+$0
+endsnippet
+
+snippet beg "New LaTeX environment" 
+\begin{$1}
+    $2
+\end{$1}
+$0
+endsnippet
+
+
+snippet notes "a basic template for a notes document" 
+\documentclass{article}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+
+\newcommand{\incfig}[2][1]{%
+	\def\svgwidth{#1\columnwidth}
+	\import{./figures/}{#2.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1\usepackage[english]{babel}
+
+\begin{document}
+
+\title{$1}
+\author{\textbf{Ansel Rausis} \ }
+\date{`date +%F`}
+\maketitle
+\newpage
+$0
+\end{document}
+
+endsnippet

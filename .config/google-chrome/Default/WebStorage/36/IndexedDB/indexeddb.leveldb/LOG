@@ -1,0 +1,6 @@
+2023/12/17-18:56:16.445 a5c Creating DB /home/ansel/.config/google-chrome/Default/WebStorage/36/IndexedDB/indexeddb.leveldb since it was missing.
+2023/12/17-18:56:16.448 a5c Reusing MANIFEST /home/ansel/.config/google-chrome/Default/WebStorage/36/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/12/17-19:05:18.324 a5d Level-0 table #5: started
+2023/12/17-19:05:18.326 a5d Level-0 table #5: 11334 bytes OK
+2023/12/17-19:05:18.328 a5d Delete type=0 #3
+2023/12/17-19:05:18.329 a5d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

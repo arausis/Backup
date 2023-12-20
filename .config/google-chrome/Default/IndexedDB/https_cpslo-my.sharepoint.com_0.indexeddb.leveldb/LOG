@@ -1,0 +1,7 @@
+2023/12/07-21:24:58.110 ca9 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/IndexedDB/https_cpslo-my.sharepoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/07-21:24:58.110 ca9 Recovering log #3
+2023/12/07-21:24:58.111 ca9 Reusing old log /home/ansel/.config/google-chrome/Default/IndexedDB/https_cpslo-my.sharepoint.com_0.indexeddb.leveldb/000003.log 
+2023/12/07-22:47:47.613 ca9 Level-0 table #5: started
+2023/12/07-22:47:47.616 ca9 Level-0 table #5: 6010 bytes OK
+2023/12/07-22:47:47.618 ca9 Delete type=0 #3
+2023/12/07-22:47:47.618 ca9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

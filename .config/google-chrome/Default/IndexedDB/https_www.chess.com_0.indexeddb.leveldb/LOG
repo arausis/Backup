@@ -1,0 +1,16 @@
+2023/12/17-02:45:40.993 a5c Reusing MANIFEST /home/ansel/.config/google-chrome/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/17-02:45:40.993 a5c Recovering log #132
+2023/12/17-02:45:40.993 a5c Reusing old log /home/ansel/.config/google-chrome/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/000132.log 
+2023/12/17-03:05:57.248 a5d Level-0 table #139: started
+2023/12/17-03:05:57.257 a5d Level-0 table #139: 147901 bytes OK
+2023/12/17-03:05:57.259 a5d Delete type=0 #132
+2023/12/17-03:05:57.260 a5d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/12/17-03:05:57.260 a5d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x03\x00\x00\x00\x00\x00\xc8\x88@' @ 561363 : 1
+2023/12/17-03:05:57.260 a5d Compacting 1@1 + 1@2 files
+2023/12/17-03:05:57.312 a5d Generated table #140@1: 8523 keys, 2173688 bytes
+2023/12/17-03:05:57.314 a5d Generated table #141@1: 218 keys, 63247 bytes
+2023/12/17-03:05:57.314 a5d Compacted 1@1 + 1@2 files => 2236935 bytes
+2023/12/17-03:05:57.315 a5d compacted to: files[ 0 0 9 0 0 0 0 ]
+2023/12/17-03:05:57.316 a5d Delete type=2 #139
+2023/12/17-03:05:57.316 a5d Delete type=2 #134
+2023/12/17-03:05:57.316 a5d Manual compaction at level-1 from '\x00\x01\x01\x02\x03\x00\x00\x00\x00\x00\xc8\x88@' @ 561363 : 1 .. (end); will stop at (end)

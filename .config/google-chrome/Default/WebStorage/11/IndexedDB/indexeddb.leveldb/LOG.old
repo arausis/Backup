@@ -1,0 +1,15 @@
+2023/11/27-21:01:39.998 e02 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/WebStorage/11/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/11/27-21:01:39.999 e02 Recovering log #4
+2023/11/27-21:01:39.999 e02 Reusing old log /home/ansel/.config/google-chrome/Default/WebStorage/11/IndexedDB/indexeddb.leveldb/000004.log 
+2023/11/27-21:04:05.800 e02 Level-0 table #8: started
+2023/11/27-21:04:05.803 e02 Level-0 table #8: 17788 bytes OK
+2023/11/27-21:04:05.804 e02 Delete type=0 #4
+2023/11/27-21:04:05.805 e02 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/11/27-21:04:05.805 e02 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x12\x005\x00f\x00b\x00a\x009\x009\x001\x002\x004\x007\x00:\x00p\x00r\x00o\x00f\x00i\x00l\x00e' @ 154 : 1
+2023/11/27-21:04:05.805 e02 Compacting 1@1 + 1@2 files
+2023/11/27-21:04:05.807 e02 Generated table #9@1: 36 keys, 5228 bytes
+2023/11/27-21:04:05.807 e02 Compacted 1@1 + 1@2 files => 5228 bytes
+2023/11/27-21:04:05.808 e02 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/27-21:04:05.809 e02 Delete type=2 #5
+2023/11/27-21:04:05.809 e02 Delete type=2 #8
+2023/11/27-21:04:05.809 e02 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x12\x005\x00f\x00b\x00a\x009\x009\x001\x002\x004\x007\x00:\x00p\x00r\x00o\x00f\x00i\x00l\x00e' @ 154 : 1 .. (end); will stop at (end)

@@ -1,0 +1,4 @@
+https://chat.openai.com/ | gpt
+https://calendar.google.com/calendar/u/0/r/week | calender
+https://trello.com/b/Ub1gQUgh/workflow | trello
+https://canvas.calpoly.edu/calendar | canvas

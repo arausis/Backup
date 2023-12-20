@@ -1,0 +1,2 @@
+#! /bin/sh 
+ google-chrome --new-window https://canvas.calpoly.edu/calendar

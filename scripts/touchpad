@@ -1,0 +1,13 @@
+#! /bin/sh
+
+output=$(xinput list-props 12 | grep Enabled )
+
+output=${output:23:1}
+
+if [ $output = 1 ]; then
+	xinput --disable 12
+fi
+if [ $output = 0 ]; then
+	xinput --enable 12
+fi
+

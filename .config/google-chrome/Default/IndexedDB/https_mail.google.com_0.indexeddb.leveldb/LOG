@@ -1,0 +1,21 @@
+2023/12/18-19:11:57.508 1460 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/18-19:11:57.508 1460 Recovering log #67
+2023/12/18-19:11:57.514 1460 Reusing old log /home/ansel/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000067.log 
+2023/12/18-19:12:44.245 1461 Level-0 table #73: started
+2023/12/18-19:12:44.270 1461 Level-0 table #73: 2734625 bytes OK
+2023/12/18-19:12:44.273 1461 Delete type=0 #67
+2023/12/18-19:12:56.796 1461 Compacting 1@1 + 1@2 files
+2023/12/18-19:12:56.810 1461 Generated table #74@1: 98 keys, 119531 bytes
+2023/12/18-19:12:56.810 1461 Compacted 1@1 + 1@2 files => 119531 bytes
+2023/12/18-19:12:56.811 1461 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/12/18-19:12:56.812 1461 Delete type=2 #73
+2023/12/18-19:12:56.813 1461 Delete type=2 #70
+2023/12/19-14:36:17.559 1461 Level-0 table #76: started
+2023/12/19-14:36:17.601 1461 Level-0 table #76: 2729669 bytes OK
+2023/12/19-14:36:17.604 1461 Delete type=0 #72
+2023/12/19-14:47:49.268 1460 Compacting 1@1 + 1@2 files
+2023/12/19-14:47:49.291 1460 Generated table #77@1: 206 keys, 499078 bytes
+2023/12/19-14:47:49.291 1460 Compacted 1@1 + 1@2 files => 499078 bytes
+2023/12/19-14:47:49.292 1460 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/12/19-14:47:49.292 1460 Delete type=2 #74
+2023/12/19-14:47:49.293 1460 Delete type=2 #76

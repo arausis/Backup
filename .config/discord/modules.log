@@ -1,0 +1,554 @@
+2023-12-15T06:50:48.351Z [Modules] Modules initializing
+2023-12-15T06:50:48.352Z [Modules] Distribution: remote
+2023-12-15T06:50:48.352Z [Modules] Host updates: enabled
+2023-12-15T06:50:48.352Z [Modules] Module updates: enabled
+2023-12-15T06:50:48.353Z [Modules] Module install path: /home/ansel/.config/discord/0.0.38/modules
+2023-12-15T06:50:48.353Z [Modules] Module installed file path: /home/ansel/.config/discord/0.0.38/modules/installed.json
+2023-12-15T06:50:48.353Z [Modules] Module download path: /home/ansel/.config/discord/0.0.38/modules/pending
+2023-12-15T06:50:48.538Z [Modules] Bootstrapping...
+2023-12-15T06:50:48.539Z [Modules] Installing discord_desktop_core@0 from /home/ansel/Desktop/Discord/resources/bootstrap/discord_desktop_core.zip
+2023-12-15T06:50:48.544Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/home/ansel/Desktop/Discord/resources/bootstrap/discord_desktop_core.zip'
+2023-12-15T06:50:48.545Z [Modules] Installing discord_erlpack@0 from /home/ansel/Desktop/Discord/resources/bootstrap/discord_erlpack.zip
+2023-12-15T06:50:48.547Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/home/ansel/Desktop/Discord/resources/bootstrap/discord_erlpack.zip'
+2023-12-15T06:50:48.548Z [Modules] Installing discord_spellcheck@0 from /home/ansel/Desktop/Discord/resources/bootstrap/discord_spellcheck.zip
+2023-12-15T06:50:48.550Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/home/ansel/Desktop/Discord/resources/bootstrap/discord_spellcheck.zip'
+2023-12-15T06:50:48.553Z [Modules] Installing discord_utils@0 from /home/ansel/Desktop/Discord/resources/bootstrap/discord_utils.zip
+2023-12-15T06:50:48.556Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/home/ansel/Desktop/Discord/resources/bootstrap/discord_utils.zip'
+2023-12-15T06:50:48.557Z [Modules] Installing discord_voice@0 from /home/ansel/Desktop/Discord/resources/bootstrap/discord_voice.zip
+2023-12-15T06:50:48.558Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/home/ansel/Desktop/Discord/resources/bootstrap/discord_voice.zip'
+2023-12-15T06:50:48.559Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-12-15T06:50:48.559Z [Modules] Checking for host updates.
+2023-12-15T06:50:48.797Z [Modules] Host is up to date.
+2023-12-15T06:50:48.797Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-15T06:50:49.209Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2023-12-15T06:50:49.209Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-12-15T06:50:49.210Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-12-15T06:50:49.210Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2023-12-15T06:50:49.210Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2023-12-15T06:50:49.211Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2023-12-15T06:50:49.211Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip
+2023-12-15T06:50:49.580Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 1%
+2023-12-15T06:50:49.583Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 2%
+2023-12-15T06:50:49.589Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 3%
+2023-12-15T06:50:49.593Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 4%
+2023-12-15T06:50:49.595Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 5%
+2023-12-15T06:50:49.604Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 6%
+2023-12-15T06:50:49.612Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 7%
+2023-12-15T06:50:49.615Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 9%
+2023-12-15T06:50:49.618Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 11%
+2023-12-15T06:50:49.625Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 12%
+2023-12-15T06:50:49.627Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 15%
+2023-12-15T06:50:49.629Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 16%
+2023-12-15T06:50:49.632Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 19%
+2023-12-15T06:50:49.635Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 20%
+2023-12-15T06:50:49.643Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 21%
+2023-12-15T06:50:49.646Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 23%
+2023-12-15T06:50:49.653Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 24%
+2023-12-15T06:50:49.658Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 26%
+2023-12-15T06:50:49.662Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 29%
+2023-12-15T06:50:49.664Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 31%
+2023-12-15T06:50:49.666Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 34%
+2023-12-15T06:50:49.667Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 37%
+2023-12-15T06:50:49.679Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 38%
+2023-12-15T06:50:49.686Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 41%
+2023-12-15T06:50:49.690Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 43%
+2023-12-15T06:50:49.694Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 46%
+2023-12-15T06:50:49.694Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 47%
+2023-12-15T06:50:49.696Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 50%
+2023-12-15T06:50:49.696Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 51%
+2023-12-15T06:50:49.701Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 54%
+2023-12-15T06:50:49.701Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 55%
+2023-12-15T06:50:49.704Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 57%
+2023-12-15T06:50:49.717Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 60%
+2023-12-15T06:50:49.723Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 63%
+2023-12-15T06:50:49.725Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 64%
+2023-12-15T06:50:49.733Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 67%
+2023-12-15T06:50:49.735Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 68%
+2023-12-15T06:50:49.737Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 72%
+2023-12-15T06:50:49.739Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 75%
+2023-12-15T06:50:49.741Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 78%
+2023-12-15T06:50:49.744Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 81%
+2023-12-15T06:50:49.754Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 83%
+2023-12-15T06:50:49.756Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 86%
+2023-12-15T06:50:49.762Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 89%
+2023-12-15T06:50:49.764Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 90%
+2023-12-15T06:50:49.765Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 94%
+2023-12-15T06:50:49.767Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 95%
+2023-12-15T06:50:49.768Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 98%
+2023-12-15T06:50:49.770Z [Modules] Streaming discord_desktop_core@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 100%
+2023-12-15T06:50:49.773Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-12-15T06:50:49.773Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip
+2023-12-15T06:50:49.946Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 1%
+2023-12-15T06:50:49.948Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 5%
+2023-12-15T06:50:49.951Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 8%
+2023-12-15T06:50:49.953Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 10%
+2023-12-15T06:50:49.955Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 14%
+2023-12-15T06:50:49.959Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 17%
+2023-12-15T06:50:49.961Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 19%
+2023-12-15T06:50:49.962Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 23%
+2023-12-15T06:50:49.964Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 27%
+2023-12-15T06:50:49.966Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 28%
+2023-12-15T06:50:49.971Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 31%
+2023-12-15T06:50:49.973Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 37%
+2023-12-15T06:50:49.982Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 39%
+2023-12-15T06:50:49.983Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 40%
+2023-12-15T06:50:49.988Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 43%
+2023-12-15T06:50:49.989Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 44%
+2023-12-15T06:50:49.994Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 46%
+2023-12-15T06:50:49.996Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 49%
+2023-12-15T06:50:49.997Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 51%
+2023-12-15T06:50:50.000Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 54%
+2023-12-15T06:50:50.001Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 57%
+2023-12-15T06:50:50.004Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 59%
+2023-12-15T06:50:50.005Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 63%
+2023-12-15T06:50:50.007Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 66%
+2023-12-15T06:50:50.009Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 68%
+2023-12-15T06:50:50.011Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 72%
+2023-12-15T06:50:50.013Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 75%
+2023-12-15T06:50:50.021Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 76%
+2023-12-15T06:50:50.022Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 77%
+2023-12-15T06:50:50.025Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 81%
+2023-12-15T06:50:50.025Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 82%
+2023-12-15T06:50:50.027Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 85%
+2023-12-15T06:50:50.028Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 86%
+2023-12-15T06:50:50.033Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 89%
+2023-12-15T06:50:50.035Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 90%
+2023-12-15T06:50:50.042Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 94%
+2023-12-15T06:50:50.044Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 99%
+2023-12-15T06:50:50.044Z [Modules] Streaming discord_erlpack@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 100%
+2023-12-15T06:50:50.046Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-12-15T06:50:50.046Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip
+2023-12-15T06:50:50.250Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 1%
+2023-12-15T06:50:50.253Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 2%
+2023-12-15T06:50:50.257Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 3%
+2023-12-15T06:50:50.259Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 4%
+2023-12-15T06:50:50.261Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 5%
+2023-12-15T06:50:50.264Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 6%
+2023-12-15T06:50:50.267Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 7%
+2023-12-15T06:50:50.270Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 8%
+2023-12-15T06:50:50.277Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 9%
+2023-12-15T06:50:50.283Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 10%
+2023-12-15T06:50:50.292Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 11%
+2023-12-15T06:50:50.295Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 12%
+2023-12-15T06:50:50.300Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 13%
+2023-12-15T06:50:50.304Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 14%
+2023-12-15T06:50:50.307Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 15%
+2023-12-15T06:50:50.309Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 16%
+2023-12-15T06:50:50.313Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 17%
+2023-12-15T06:50:50.315Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 18%
+2023-12-15T06:50:50.361Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 19%
+2023-12-15T06:50:50.365Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 20%
+2023-12-15T06:50:50.367Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 21%
+2023-12-15T06:50:50.371Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 22%
+2023-12-15T06:50:50.374Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 23%
+2023-12-15T06:50:50.376Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 24%
+2023-12-15T06:50:50.380Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 25%
+2023-12-15T06:50:50.384Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 26%
+2023-12-15T06:50:50.387Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 27%
+2023-12-15T06:50:50.398Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 28%
+2023-12-15T06:50:50.406Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 29%
+2023-12-15T06:50:50.412Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 30%
+2023-12-15T06:50:50.414Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 31%
+2023-12-15T06:50:50.417Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 32%
+2023-12-15T06:50:50.423Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 33%
+2023-12-15T06:50:50.425Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 34%
+2023-12-15T06:50:50.430Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 35%
+2023-12-15T06:50:50.433Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 36%
+2023-12-15T06:50:50.435Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 37%
+2023-12-15T06:50:50.445Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 38%
+2023-12-15T06:50:50.447Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 39%
+2023-12-15T06:50:50.450Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 40%
+2023-12-15T06:50:50.464Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 41%
+2023-12-15T06:50:50.465Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 42%
+2023-12-15T06:50:50.466Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 43%
+2023-12-15T06:50:50.469Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 44%
+2023-12-15T06:50:50.472Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 45%
+2023-12-15T06:50:50.474Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 46%
+2023-12-15T06:50:50.477Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 47%
+2023-12-15T06:50:50.480Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 48%
+2023-12-15T06:50:50.487Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 49%
+2023-12-15T06:50:50.488Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 50%
+2023-12-15T06:50:50.497Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 51%
+2023-12-15T06:50:50.522Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 52%
+2023-12-15T06:50:50.542Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 53%
+2023-12-15T06:50:50.549Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 54%
+2023-12-15T06:50:50.556Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 55%
+2023-12-15T06:50:50.562Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 56%
+2023-12-15T06:50:50.566Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 57%
+2023-12-15T06:50:50.570Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 58%
+2023-12-15T06:50:50.578Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 59%
+2023-12-15T06:50:50.582Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 60%
+2023-12-15T06:50:50.589Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 61%
+2023-12-15T06:50:50.598Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 62%
+2023-12-15T06:50:50.607Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 63%
+2023-12-15T06:50:50.645Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 64%
+2023-12-15T06:50:50.669Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 65%
+2023-12-15T06:50:50.672Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 66%
+2023-12-15T06:50:50.675Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 67%
+2023-12-15T06:50:50.679Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 68%
+2023-12-15T06:50:50.683Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 69%
+2023-12-15T06:50:50.692Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 70%
+2023-12-15T06:50:50.742Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 71%
+2023-12-15T06:50:50.750Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 72%
+2023-12-15T06:50:50.755Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 73%
+2023-12-15T06:50:50.756Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 74%
+2023-12-15T06:50:50.758Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 75%
+2023-12-15T06:50:50.761Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 76%
+2023-12-15T06:50:50.774Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 77%
+2023-12-15T06:50:50.778Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 78%
+2023-12-15T06:50:50.782Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 79%
+2023-12-15T06:50:50.791Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 80%
+2023-12-15T06:50:50.795Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 81%
+2023-12-15T06:50:50.817Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 82%
+2023-12-15T06:50:50.822Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 83%
+2023-12-15T06:50:50.845Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 84%
+2023-12-15T06:50:50.851Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 85%
+2023-12-15T06:50:50.860Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 86%
+2023-12-15T06:50:50.862Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 87%
+2023-12-15T06:50:50.865Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 88%
+2023-12-15T06:50:50.867Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 89%
+2023-12-15T06:50:50.878Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 90%
+2023-12-15T06:50:50.898Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 91%
+2023-12-15T06:50:50.899Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 92%
+2023-12-15T06:50:50.902Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 93%
+2023-12-15T06:50:50.910Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 94%
+2023-12-15T06:50:50.913Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 95%
+2023-12-15T06:50:50.917Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 96%
+2023-12-15T06:50:50.920Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 97%
+2023-12-15T06:50:50.924Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 98%
+2023-12-15T06:50:50.927Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 99%
+2023-12-15T06:50:50.930Z [Modules] Streaming discord_spellcheck@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 100%
+2023-12-15T06:50:50.933Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2023-12-15T06:50:50.933Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip
+2023-12-15T06:50:51.064Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 2%
+2023-12-15T06:50:51.065Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 5%
+2023-12-15T06:50:51.068Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 7%
+2023-12-15T06:50:51.071Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 9%
+2023-12-15T06:50:51.072Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 10%
+2023-12-15T06:50:51.075Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 12%
+2023-12-15T06:50:51.076Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 13%
+2023-12-15T06:50:51.081Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 14%
+2023-12-15T06:50:51.082Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 17%
+2023-12-15T06:50:51.084Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 19%
+2023-12-15T06:50:51.086Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 20%
+2023-12-15T06:50:51.090Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 22%
+2023-12-15T06:50:51.092Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 23%
+2023-12-15T06:50:51.093Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 25%
+2023-12-15T06:50:51.098Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 30%
+2023-12-15T06:50:51.100Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 32%
+2023-12-15T06:50:51.101Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 34%
+2023-12-15T06:50:51.104Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 36%
+2023-12-15T06:50:51.105Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 37%
+2023-12-15T06:50:51.107Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 39%
+2023-12-15T06:50:51.108Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 40%
+2023-12-15T06:50:51.114Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 41%
+2023-12-15T06:50:51.117Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 43%
+2023-12-15T06:50:51.118Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 44%
+2023-12-15T06:50:51.121Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 46%
+2023-12-15T06:50:51.124Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 48%
+2023-12-15T06:50:51.125Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 49%
+2023-12-15T06:50:51.127Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 51%
+2023-12-15T06:50:51.128Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 52%
+2023-12-15T06:50:51.129Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 54%
+2023-12-15T06:50:51.130Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 55%
+2023-12-15T06:50:51.132Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 57%
+2023-12-15T06:50:51.132Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 58%
+2023-12-15T06:50:51.134Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 60%
+2023-12-15T06:50:51.140Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 63%
+2023-12-15T06:50:51.142Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 65%
+2023-12-15T06:50:51.146Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 67%
+2023-12-15T06:50:51.147Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 68%
+2023-12-15T06:50:51.148Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 70%
+2023-12-15T06:50:51.149Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 71%
+2023-12-15T06:50:51.151Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 73%
+2023-12-15T06:50:51.152Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 74%
+2023-12-15T06:50:51.157Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 76%
+2023-12-15T06:50:51.158Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 77%
+2023-12-15T06:50:51.159Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 79%
+2023-12-15T06:50:51.162Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 81%
+2023-12-15T06:50:51.163Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 82%
+2023-12-15T06:50:51.164Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 84%
+2023-12-15T06:50:51.165Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 85%
+2023-12-15T06:50:51.167Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 87%
+2023-12-15T06:50:51.168Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 88%
+2023-12-15T06:50:51.170Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 90%
+2023-12-15T06:50:51.172Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 92%
+2023-12-15T06:50:51.173Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 93%
+2023-12-15T06:50:51.182Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 94%
+2023-12-15T06:50:51.184Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 96%
+2023-12-15T06:50:51.184Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 97%
+2023-12-15T06:50:51.187Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 99%
+2023-12-15T06:50:51.188Z [Modules] Streaming discord_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 100%
+2023-12-15T06:50:51.190Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2023-12-15T06:50:51.190Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip
+2023-12-15T06:50:51.317Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 1%
+2023-12-15T06:50:51.330Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 2%
+2023-12-15T06:50:51.337Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 3%
+2023-12-15T06:50:51.345Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 4%
+2023-12-15T06:50:51.358Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 5%
+2023-12-15T06:50:51.367Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 6%
+2023-12-15T06:50:51.375Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 7%
+2023-12-15T06:50:51.386Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 8%
+2023-12-15T06:50:51.394Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 9%
+2023-12-15T06:50:51.404Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 10%
+2023-12-15T06:50:51.414Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 11%
+2023-12-15T06:50:51.422Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 12%
+2023-12-15T06:50:51.427Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 13%
+2023-12-15T06:50:51.444Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 14%
+2023-12-15T06:50:51.453Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 15%
+2023-12-15T06:50:51.464Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 16%
+2023-12-15T06:50:51.476Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 17%
+2023-12-15T06:50:51.484Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 18%
+2023-12-15T06:50:51.498Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 19%
+2023-12-15T06:50:51.507Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 20%
+2023-12-15T06:50:51.518Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 21%
+2023-12-15T06:50:51.531Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 22%
+2023-12-15T06:50:51.536Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 23%
+2023-12-15T06:50:51.563Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 24%
+2023-12-15T06:50:51.571Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 25%
+2023-12-15T06:50:51.578Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 26%
+2023-12-15T06:50:51.588Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 27%
+2023-12-15T06:50:51.595Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 28%
+2023-12-15T06:50:51.603Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 29%
+2023-12-15T06:50:51.611Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 30%
+2023-12-15T06:50:51.618Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 31%
+2023-12-15T06:50:51.626Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 32%
+2023-12-15T06:50:51.633Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 33%
+2023-12-15T06:50:51.642Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 34%
+2023-12-15T06:50:51.650Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 35%
+2023-12-15T06:50:51.660Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 36%
+2023-12-15T06:50:51.668Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 37%
+2023-12-15T06:50:51.676Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 38%
+2023-12-15T06:50:51.682Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 39%
+2023-12-15T06:50:51.693Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 40%
+2023-12-15T06:50:51.701Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 41%
+2023-12-15T06:50:51.709Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 42%
+2023-12-15T06:50:51.719Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 43%
+2023-12-15T06:50:51.731Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 44%
+2023-12-15T06:50:51.739Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 45%
+2023-12-15T06:50:51.752Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 46%
+2023-12-15T06:50:51.760Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 47%
+2023-12-15T06:50:51.765Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 48%
+2023-12-15T06:50:51.775Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 49%
+2023-12-15T06:50:51.782Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 50%
+2023-12-15T06:50:51.789Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 51%
+2023-12-15T06:50:51.798Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 52%
+2023-12-15T06:50:51.808Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 53%
+2023-12-15T06:50:51.815Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 54%
+2023-12-15T06:50:51.826Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 55%
+2023-12-15T06:50:51.830Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 56%
+2023-12-15T06:50:51.837Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 57%
+2023-12-15T06:50:51.849Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 58%
+2023-12-15T06:50:51.856Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 59%
+2023-12-15T06:50:51.867Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 60%
+2023-12-15T06:50:51.879Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 61%
+2023-12-15T06:50:51.891Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 62%
+2023-12-15T06:50:51.902Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 63%
+2023-12-15T06:50:51.912Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 64%
+2023-12-15T06:50:51.935Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 65%
+2023-12-15T06:50:51.942Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 66%
+2023-12-15T06:50:51.950Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 67%
+2023-12-15T06:50:51.958Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 68%
+2023-12-15T06:50:51.968Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 69%
+2023-12-15T06:50:51.976Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 70%
+2023-12-15T06:50:51.990Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 71%
+2023-12-15T06:50:51.993Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 72%
+2023-12-15T06:50:52.002Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 73%
+2023-12-15T06:50:52.007Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 74%
+2023-12-15T06:50:52.015Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 75%
+2023-12-15T06:50:52.023Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 76%
+2023-12-15T06:50:52.032Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 77%
+2023-12-15T06:50:52.043Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 78%
+2023-12-15T06:50:52.052Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 79%
+2023-12-15T06:50:52.058Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 80%
+2023-12-15T06:50:52.068Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 81%
+2023-12-15T06:50:52.079Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 82%
+2023-12-15T06:50:52.088Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 83%
+2023-12-15T06:50:52.098Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 84%
+2023-12-15T06:50:52.105Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 85%
+2023-12-15T06:50:52.115Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 86%
+2023-12-15T06:50:52.120Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 87%
+2023-12-15T06:50:52.130Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 88%
+2023-12-15T06:50:52.141Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 89%
+2023-12-15T06:50:52.148Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 90%
+2023-12-15T06:50:52.154Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 91%
+2023-12-15T06:50:52.161Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 92%
+2023-12-15T06:50:52.172Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 93%
+2023-12-15T06:50:52.180Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 94%
+2023-12-15T06:50:52.186Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 95%
+2023-12-15T06:50:52.197Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 96%
+2023-12-15T06:50:52.207Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 97%
+2023-12-15T06:50:52.214Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 98%
+2023-12-15T06:50:52.224Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 99%
+2023-12-15T06:50:52.230Z [Modules] Streaming discord_voice@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 100%
+2023-12-15T06:50:52.233Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-12-15T06:50:52.233Z [Modules] Installing updates...
+2023-12-15T06:50:52.233Z [Modules] Installing discord_desktop_core@1 from /home/ansel/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip
+2023-12-15T06:50:52.315Z [Modules] Installing discord_erlpack@1 from /home/ansel/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip
+2023-12-15T06:50:52.372Z [Modules] Installing discord_spellcheck@1 from /home/ansel/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip
+2023-12-15T06:50:53.491Z [Modules] Installing discord_utils@1 from /home/ansel/.config/discord/0.0.38/modules/pending/discord_utils-1.zip
+2023-12-15T06:50:53.732Z [Modules] Installing discord_voice@1 from /home/ansel/.config/discord/0.0.38/modules/pending/discord_voice-1.zip
+2023-12-15T06:50:55.120Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2023-12-15T06:50:55.120Z [Modules] Checking for host updates.
+2023-12-15T06:50:55.358Z [Modules] Host is up to date.
+2023-12-15T06:50:55.358Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-15T06:50:55.364Z [Modules] No module updates available.
+2023-12-15T06:50:57.641Z [Modules] Starting to install discord_krisp...
+2023-12-15T06:50:57.642Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2023-12-15T06:50:57.642Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip
+2023-12-15T06:50:57.655Z [Modules] Starting to install discord_game_utils...
+2023-12-15T06:50:57.945Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 1%
+2023-12-15T06:50:57.951Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 3%
+2023-12-15T06:50:57.953Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 4%
+2023-12-15T06:50:57.990Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 5%
+2023-12-15T06:50:58.027Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 6%
+2023-12-15T06:50:58.034Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 7%
+2023-12-15T06:50:58.040Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 8%
+2023-12-15T06:50:58.047Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 9%
+2023-12-15T06:50:58.211Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 10%
+2023-12-15T06:50:58.217Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 11%
+2023-12-15T06:50:58.223Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 12%
+2023-12-15T06:50:58.232Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 13%
+2023-12-15T06:50:58.239Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 14%
+2023-12-15T06:50:58.396Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 15%
+2023-12-15T06:50:58.399Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 16%
+2023-12-15T06:50:58.416Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 17%
+2023-12-15T06:50:58.417Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 18%
+2023-12-15T06:50:58.419Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 19%
+2023-12-15T06:50:58.420Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 20%
+2023-12-15T06:50:58.421Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 21%
+2023-12-15T06:50:58.421Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 22%
+2023-12-15T06:50:58.422Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 23%
+2023-12-15T06:50:58.436Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 24%
+2023-12-15T06:50:58.437Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 25%
+2023-12-15T06:50:58.439Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 26%
+2023-12-15T06:50:58.440Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 27%
+2023-12-15T06:50:58.447Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 28%
+2023-12-15T06:50:58.477Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 29%
+2023-12-15T06:50:58.478Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 30%
+2023-12-15T06:50:58.484Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 31%
+2023-12-15T06:50:58.490Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 32%
+2023-12-15T06:50:58.498Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 33%
+2023-12-15T06:50:58.528Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 34%
+2023-12-15T06:50:58.533Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 35%
+2023-12-15T06:50:58.535Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 36%
+2023-12-15T06:50:58.536Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 37%
+2023-12-15T06:50:58.538Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 38%
+2023-12-15T06:50:58.542Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 39%
+2023-12-15T06:50:58.547Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 40%
+2023-12-15T06:50:58.557Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 41%
+2023-12-15T06:50:58.567Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 42%
+2023-12-15T06:50:58.571Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 43%
+2023-12-15T06:50:58.578Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 44%
+2023-12-15T06:50:58.584Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 45%
+2023-12-15T06:50:58.594Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 46%
+2023-12-15T06:50:58.600Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 47%
+2023-12-15T06:50:58.609Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 48%
+2023-12-15T06:50:58.614Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 49%
+2023-12-15T06:50:58.622Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 50%
+2023-12-15T06:50:58.629Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 51%
+2023-12-15T06:50:58.634Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 52%
+2023-12-15T06:50:58.643Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 53%
+2023-12-15T06:50:58.650Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 54%
+2023-12-15T06:50:58.656Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 55%
+2023-12-15T06:50:58.663Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 56%
+2023-12-15T06:50:58.670Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 57%
+2023-12-15T06:50:58.679Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 58%
+2023-12-15T06:50:58.684Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 59%
+2023-12-15T06:50:58.690Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 60%
+2023-12-15T06:50:58.696Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 61%
+2023-12-15T06:50:58.702Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 62%
+2023-12-15T06:50:58.709Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 63%
+2023-12-15T06:50:58.714Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 64%
+2023-12-15T06:50:58.724Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 65%
+2023-12-15T06:50:58.729Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 66%
+2023-12-15T06:50:58.736Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 67%
+2023-12-15T06:50:58.746Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 68%
+2023-12-15T06:50:58.747Z [Modules] Checking for host updates.
+2023-12-15T06:50:58.754Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 69%
+2023-12-15T06:50:58.765Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 70%
+2023-12-15T06:50:58.801Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 71%
+2023-12-15T06:50:58.803Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 72%
+2023-12-15T06:50:58.805Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 73%
+2023-12-15T06:50:58.807Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 74%
+2023-12-15T06:50:58.808Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 75%
+2023-12-15T06:50:58.810Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 76%
+2023-12-15T06:50:58.814Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 77%
+2023-12-15T06:50:58.823Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 78%
+2023-12-15T06:50:58.832Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 79%
+2023-12-15T06:50:58.841Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 80%
+2023-12-15T06:50:58.846Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 81%
+2023-12-15T06:50:58.856Z [Modules] Starting to install discord_rpc...
+2023-12-15T06:50:58.858Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 82%
+2023-12-15T06:50:58.865Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 83%
+2023-12-15T06:50:58.872Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 84%
+2023-12-15T06:50:58.878Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 85%
+2023-12-15T06:50:58.885Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 86%
+2023-12-15T06:50:58.892Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 87%
+2023-12-15T06:50:58.900Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 88%
+2023-12-15T06:50:58.907Z [Modules] Host is up to date.
+2023-12-15T06:50:58.907Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-15T06:50:58.908Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 89%
+2023-12-15T06:50:58.912Z [Modules] No module updates available.
+2023-12-15T06:50:58.913Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 90%
+2023-12-15T06:50:58.915Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 91%
+2023-12-15T06:50:58.922Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 92%
+2023-12-15T06:50:58.931Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 93%
+2023-12-15T06:50:58.938Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 94%
+2023-12-15T06:50:58.945Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 95%
+2023-12-15T06:50:58.966Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 96%
+2023-12-15T06:50:58.969Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 97%
+2023-12-15T06:50:58.970Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 98%
+2023-12-15T06:50:58.976Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 99%
+2023-12-15T06:50:58.981Z [Modules] Streaming discord_krisp@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 100%
+2023-12-15T06:50:58.983Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2023-12-15T06:50:58.983Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip
+2023-12-15T06:50:58.983Z [Modules] Installing discord_krisp@1 from /home/ansel/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip
+2023-12-15T06:50:59.108Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 1%
+2023-12-15T06:50:59.109Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 3%
+2023-12-15T06:50:59.110Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 6%
+2023-12-15T06:50:59.111Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 7%
+2023-12-15T06:50:59.113Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 9%
+2023-12-15T06:50:59.114Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 10%
+2023-12-15T06:50:59.118Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 12%
+2023-12-15T06:50:59.118Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 14%
+2023-12-15T06:50:59.122Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 16%
+2023-12-15T06:50:59.123Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 17%
+2023-12-15T06:50:59.127Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 20%
+2023-12-15T06:50:59.128Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 22%
+2023-12-15T06:50:59.129Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 23%
+2023-12-15T06:50:59.131Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 26%
+2023-12-15T06:50:59.131Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 27%
+2023-12-15T06:50:59.312Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 83%
+2023-12-15T06:50:59.315Z [Modules] Streaming discord_game_utils@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 100%
+2023-12-15T06:50:59.318Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2023-12-15T06:50:59.318Z [Modules] Streaming discord_rpc@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_rpc-1.zip
+2023-12-15T06:50:59.452Z [Modules] Streaming discord_rpc@1 to /home/ansel/.config/discord/0.0.38/modules/pending/discord_rpc-1.zip: 100%
+2023-12-15T06:50:59.453Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2023-12-15T06:50:59.817Z [Modules] Installing discord_game_utils@1 from /home/ansel/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip
+2023-12-15T06:50:59.906Z [Modules] Installing discord_rpc@1 from /home/ansel/.config/discord/0.0.38/modules/pending/discord_rpc-1.zip
+2023-12-15T06:50:59.937Z [Modules] Finished module installations. [success: 3] [failure: 0]
+2023-12-15T18:13:15.106Z [Modules] Checking for host updates.
+2023-12-15T18:13:15.463Z [Modules] Host is up to date.
+2023-12-15T18:13:15.463Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-15T18:13:15.488Z [Modules] No module updates available.
+2023-12-15T19:13:15.107Z [Modules] Checking for host updates.
+2023-12-15T19:13:15.352Z [Modules] Host is up to date.
+2023-12-15T19:13:15.353Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-15T19:13:15.484Z [Modules] No module updates available.
+2023-12-15T20:13:15.107Z [Modules] Checking for host updates.
+2023-12-15T20:13:17.037Z [Modules] Host is up to date.
+2023-12-15T20:13:17.037Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-15T20:13:17.080Z [Modules] No module updates available.
+2023-12-16T08:12:07.576Z [Modules] Checking for host updates.
+2023-12-16T08:12:08.634Z [Modules] Host is up to date.
+2023-12-16T08:12:08.634Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-16T08:12:08.998Z [Modules] No module updates available.
+2023-12-17T05:11:42.642Z [Modules] Checking for host updates.
+2023-12-17T05:11:43.395Z [Modules] Host is up to date.
+2023-12-17T05:11:43.395Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-17T05:11:43.802Z [Modules] No module updates available.
+2023-12-18T02:58:35.505Z [Modules] Checking for host updates.
+2023-12-18T02:58:39.614Z [Modules] Host is up to date.
+2023-12-18T02:58:39.614Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-18T02:58:39.817Z [Modules] No module updates available.

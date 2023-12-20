@@ -1,0 +1,38 @@
+#! /bin/sh
+
+sites=($(ls -p ~/scripts/sitescripts | grep -v /))
+files=($(ls -I menu -p ~/scripts | grep -v /))
+formated=""
+
+for element in "${files[@]}"
+do
+	formated="$formated  $element\n"
+done
+
+for element in "${sites[@]}"
+do
+	formated="$formated  $element\n"
+done
+
+chosen=$(printf "$formated" | rofi -dmenu -i -theme-str)
+
+chosen=${chosen:3}
+chosen=${chosen:-1}
+
+full=~/scripts/$chosen 
+
+for element in "${sites[@]}"
+do
+	if [ "$chosen" = "$element" ]; then
+		full=~/scripts/sitescripts/$chosen 
+	fi
+done
+
+for element in "${files[@]}"
+do
+	if [ "$chosen" = "$element" ]; then
+		full=~/scripts/$chosen 
+	fi
+done
+
+bash $full

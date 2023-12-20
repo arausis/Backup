@@ -1,0 +1,26 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPYAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+eDP HDMI-A-0 Window-Maximized 1920x1080=true
+eDP HDMI-A-0 XPosition 1920x1080=524
+eDP HDMI-A-0 YPosition 1920x1080=868
+eDP Height 1920x1080=956
+eDP Width 1920x1080=1920
+eDP Window-Maximized 1920x1080=true
+eDP XPosition 1920x1080=0
+eDP YPosition 1920x1080=64
+
+[Recent Files]
+File1[$e]=/media/ansel/Windows/Users/araus/Programming/FALL2023/CSC202/notes/notes3/notes3.pdf
+File2[$e]=$HOME/Pictures/shutter
+File3[$e]=/media/ansel/Windows/Users/araus/Programming/FALL2023/CSC202/summary/summary.pdf
+File4[$e]=/media/ansel/Windows/Users/araus/OneDrive/Desktop/Linear Algebra Done right.pdf
+File5[$e]=$HOME/Downloads/final_copy.pdf
+Name1[$e]=notes3.pdf
+Name2[$e]=shutter
+Name3[$e]=summary.pdf
+Name4[$e]=Linear Algebra Done right.pdf
+Name5[$e]=final_copy.pdf

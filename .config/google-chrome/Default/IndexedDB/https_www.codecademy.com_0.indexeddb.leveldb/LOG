@@ -1,0 +1,6 @@
+2023/12/10-13:04:52.259 b51 Creating DB /home/ansel/.config/google-chrome/Default/IndexedDB/https_www.codecademy.com_0.indexeddb.leveldb since it was missing.
+2023/12/10-13:04:52.262 b51 Reusing MANIFEST /home/ansel/.config/google-chrome/Default/IndexedDB/https_www.codecademy.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/10-13:05:29.268 b51 Level-0 table #5: started
+2023/12/10-13:05:29.271 b51 Level-0 table #5: 37701 bytes OK
+2023/12/10-13:05:29.273 b51 Delete type=0 #3
+2023/12/10-13:05:29.273 b51 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
