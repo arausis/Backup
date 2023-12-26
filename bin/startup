@@ -1,0 +1,4 @@
+#! /bin/sh
+
+gnome-terminal --command "/usr/bin/python3 /home/ansel/bin/logger.py" 
+
